@@ -37,10 +37,12 @@ jobs:
           python-version: 3.8
       - name: Install dependencies
         run: |
-          pip install -r teach_online/requirements.txt
+          pip install -r teach_online/requirements.txt && \
+          sudo apt-get install -y texlive-fonts-extra texlive-latex-extra texlive-xetex latexmk
       - name: Build Book
         run: |
-          jupyter-book build teach_online
+          jupyter-book build teach_online && \
+          jupyter-book build teach_online --builder pdflatex
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
@@ -51,3 +53,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name: Generate release tag
+        id: tag
+        run: |
+          echo "::set-output name=release_tag::$(date +"%Y-%m-%d_%H-%M-%S")"
+      - name: Publish release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload built PDF to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: teach_online/_build/latex/book.pdf
+          asset_name: How-to-Teach-Online.pdf
+          tag: ${{ steps.tag.outputs.release_tag }}
+          overwrite: true
