@@ -1,9 +1,17 @@
-# Markdown Files
+# Preface
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
-This is a simple file to help you get started and show off some syntax.
+Thank you for reading this module! Whether you are a seasoned instructor or new to the field, we hope you will take something away from this resource that you will be able to incorporate into your own teaching.
+
+## Disclaimer
+
+This module was written by a single person, [Niema Moshiri](https://niema.net) (me), and while I strived to gain insights from as many folks across disciplines as possible, everything written in this module has my own biases and should be taken with a grain of salt. Further, the technologies and techniques I describe may no longer exist in the future or may not be state-of-the-art, so please keep in mind current evidence-based best practices as well as modern tooling. Rather than treating this module as a *de facto* set of instructions for online teaching, think of it more as a repository of many (hopefully) useful tips that you can pull pieces of to incorporate into your own teaching.
+
+## Contribute
+To try to combat my own biases as well as to hopefully keep this module up-to-date, the entire source code for this module is publicly available on [GitHub](https://github.com/niemasd/How-to-Teach-Online), and [Pull Requests](https://github.com/niemasd/How-to-Teach-Online/pulls) are welcome!
+
+## TODO DELETE EVERYTHING BELOW
+
+TODO DELETE EVERYTHING BELOW
 
 ## What is MyST?
 
