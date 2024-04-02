@@ -1,6 +1,9 @@
 # Welcome to your Jupyter Book
 
-This is an online training module to provide instructors guidance in developing and offering fully-online and hybrid courses. Even instructors of in-person courses with online components (e.g. discussion board, online assessments, etc.) might find some useful information!
+This is an online training module to provide instructors guidance in developing and offering fully-online and hybrid courses.
+Even instructors of in-person courses with online components
+(e.g. discussion board, online assessments, etc.)
+might find some useful information!
 
 ```{tableofcontents}
 ```

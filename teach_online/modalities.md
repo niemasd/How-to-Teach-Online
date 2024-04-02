@@ -1,0 +1,47 @@
+# Modalities of Instruction
+
+```{note}
+Source Code: TODO
+```
+
+In this chapter,
+we will be discussing different modalities of instruction that can incorporate online learning.
+We will present each modality,
+and we will discuss how online learning can be effectively utilized in each.
+This chapter will establish more generalized frameworks of teaching,
+and future chapters will hone in on specific tasks that can be implemented within those frameworks.
+
+## Fully In-Person
+
+While it might seem strange for a resource titled *How to Teach Online* to begin with a discussion about fully in-person instruction,
+we wanted to start things off with what is typically the most "traditional" modality of instruction that readers might be most familiar with.
+In a fully in-person class,
+all core instruction occurs in physically within the classroom.
+By definition, fully in-person instruction is synchronous:
+the instructor and the students physically meet at a lecture hall or classroom,
+and the core instruction occurs synchronously during this in-person meeting time.
+
+### The Good
+
+One benefit of fully in-person instruction is that it can make direct interactions between the instructor and the students
+easier and more natural to facilitate.
+For example, instructors have the ability to physically move around the classroom,
+which enables instructors to employ engaging teaching techniques such as Peer Instruction (TODO CITE) and Small Group Discussion (TODO CITE).
+
+Another benefit of fully in-person instruction is that TODO CONTINUE HERE
+
+### The Bad
+
+TODO
+
+## Fully Online
+
+TODO
+
+## Hybrid
+
+TODO
+
+## HyFlex
+
+TODO

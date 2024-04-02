@@ -1,8 +1,16 @@
 # Preface
 
+```{note}
+Source Code: TODO
+```
+
 Thank you for reading *How to Teach Online*!
 Whether you are a seasoned instructor or new to teaching,
-I hope you will learn some useful information that you will be able to incorporate into your own teaching!
+we hope you will learn some useful information that you will be able to incorporate into your own teaching!
+This resource will be broken down into individual sections focused on specific aspects of online teaching.
+We will try to provide multiple examples for each topic,
+and we will try to comment on feasibility and usefulness in the context of different disciplines,
+as some techniques and tools may lend themselves better to some types of courses than to others.
 
 ## About
 My name is [Niema Moshiri](https://github.com),
