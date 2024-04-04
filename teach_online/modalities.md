@@ -26,7 +26,9 @@ and the core instruction occurs synchronously during this in-person meeting time
 One benefit of fully in-person instruction is that it can make direct interactions between the instructor and the students
 easier and more natural to facilitate.
 For example, instructors have the ability to physically move around the classroom,
-which enables instructors to employ engaging teaching techniques such as Peer Instruction (TODO CITE) and Small Group Discussion (TODO CITE).
+which enables instructors to employ engaging teaching techniques such as
+Peer Instruction {cite:p}`crouch_peer_2001,knight_peer_2018,porter_halving_2013`
+and Small Group Discussion (TODO CITE).
 
 Another benefit of fully in-person instruction is that TODO CONTINUE HERE
 
