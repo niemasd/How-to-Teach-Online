@@ -1,7 +1,7 @@
 # Modalities of Instruction
 
 ```{note}
-Source Code: TODO
+Source Code: [`teach_online/modalities.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/modalities.md)
 ```
 
 In this chapter,

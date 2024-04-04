@@ -1,7 +1,7 @@
 # Preface
 
 ```{note}
-Source Code: TODO
+Source Code: [`teach_online/preface.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/preface.md)
 ```
 
 Thank you for reading *How to Teach Online*!
