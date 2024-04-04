@@ -6,3 +6,4 @@ root: intro
 chapters:
 - file: preface
 - file: modalities
+- file: references
