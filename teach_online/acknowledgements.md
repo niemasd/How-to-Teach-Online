@@ -12,6 +12,7 @@ I would like to thank the following people for fruitful conversations that have 
 * [**Ashley Juavinett**](https://neuroedu.biosci.ucsd.edu/), Associate Teaching Professor, Neurobiology, UC San Diego
 * [**Sabeel Mansuri**](https://sabeelmansuri.com/), Founding Engineer, AWS HealthOmics, Amazon
 * [**Mia Minnes**](https://cseweb.ucsd.edu/~minnes/), Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**Ladan Moshiri**](https://www.linkedin.com/in/ladanmoshiri), Instructional Designer, Scripps Health
 * [**Chris Nitta**](https://csiflabs.cs.ucdavis.edu/~cjnitta/), Assistant Professor of Teaching, Computer Science, UC San Diego
 * [**Pavel Pevzner**](https://bioalgorithms.ucsd.edu/), Professor, Computer Science & Engineering, UC San Diego
 * [**Joe Politz**](https://jpolitz.github.io/), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
