@@ -23,14 +23,12 @@ and the core instruction occurs synchronously during this in-person meeting time
 
 ### The Good
 
-One benefit of fully in-person instruction is that it can make direct interactions between the instructor and the students
-easier and more natural to facilitate.
+The primary benefit of fully in-person instruction is that it can make
+direct interactions between the instructor and the students easier and more natural to facilitate.
 For example, instructors have the ability to physically move around the classroom,
 which enables instructors to employ engaging teaching techniques such as
-Peer Instruction {cite:p}`crouch_peer_2001,knight_peer_2018,porter_halving_2013`
-and Small Group Discussion {cite:p}`pollock_learning_2011,bennett_talking_2010`.
-
-Another benefit of fully in-person instruction is that TODO CONTINUE HERE
+**Peer Instruction** {cite:p}`crouch_peer_2001,knight_peer_2018,porter_halving_2013`
+and **Small Group Discussion** {cite:p}`pollock_learning_2011,bennett_talking_2010`.
 
 ### The Bad
 
