@@ -10,6 +10,10 @@ We will present each modality,
 and we will discuss how online learning can be effectively utilized in each.
 This chapter will establish more generalized frameworks of teaching,
 and future chapters will hone in on specific tasks that can be implemented within those frameworks.
+We want to emphasize that many of the individual teaching components we describe in each of the following modality descriptions
+can be used across multiple modalities
+(e.g. both in-person and online classrooms commonly use online discussion boards and assessments),
+and we will dive into specific components in later chapters.
 
 ## Fully In-Person
 
@@ -66,6 +70,39 @@ in which all core instruction is by definition synchronous,
 the core instruction in a fully online class can be
 synchronous, asynchronous, or a mix of both.
 
+### Synchronous vs. Asynchronous
+
+In synchronous fully online instruction,
+"classroom" instruction is conducted in a manner similar to in-person instruction:
+students meet with the instructor at a specified time,
+and instructor-to-student interactions look very similar to how they look in-person
+(including the potential for traditional lecture vs. {term}`Flipped Classroom`),
+but held virtually via video conferencing tools rather than in a physical classroom.
+
+In asynchronous fully online instruction,
+all instructor-to-student interactions are fully asynchronous.
+They commonly take the form of prerecorded videos,
+but they can also take the form of text-based interactions,
+such as reading instructional materials written by the instructor
+(like you're doing right now!)
+and/or online chat or discussion board.
+
+In practice,
+(good) fully online instruction typically employs a combination of synchronous and asynchronous instruction.
+For example,
+a fully online classroom may have synchronous class time as well as mandatory asynchronous online discussion.
+Further,
+instructors who hold synchronous sessions in a fully online classroom can record these sessions
+so students who are unable to attend synchronously can watch recordings according to their own schedule.
+
+### The Good
+
+TODO
+
+### The Bad
+
+TODO
+
 ## Hybrid
 
 TODO
@@ -78,13 +115,17 @@ TODO
 
 ```{glossary}
 Flipped Classroom
-  A teaching method in which students read/watch learning materials and work on problems asynchronously before class, and in-class time is reserved for problem solving, discussion, and other activities {cite:p}`bishop_flipped_2013`.
+  A teaching method in which students read/watch learning materials and work on problems asynchronously before class,
+  and in-class time is reserved for problem solving, discussion, and other activities {cite:p}`bishop_flipped_2013`.
 Micro-Classes
-  Pre-assigned small groups of students led by an Instructional Assistant that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
+  Pre-assigned small groups of students led by an Instructional Assistant
+  that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
 Peer Instruction
-  A teaching method in which each student applies the core concepts, and then explains those concepts to their classmates {cite:p}`crouch_peer_2001`.
+  A teaching method in which each student applies the core concepts,
+  and then explains those concepts to their classmates {cite:p}`crouch_peer_2001`.
 Small-Group Discussion
-  In-class discussions among small groups of students (not necessarily pre-assigned), potentially facilitated by members of the instructional staff {cite:p}`cohen_restructuring_1994`.
+  In-class discussions among small groups of students (not necessarily pre-assigned),
+  potentially facilitated by members of the instructional staff {cite:p}`cohen_restructuring_1994`.
 ```
 
 ```{bibliography}
