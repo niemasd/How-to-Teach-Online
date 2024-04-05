@@ -6,6 +6,8 @@ I would like to thank the following people for fruitful conversations that have 
 * [**Christine Alvarado**](https://jacobsschool.ucsd.edu/faculty/profile?id=337), Teaching Professor, Computer Science & Engineering, UC San Diego
 * [**Tricia Bertram Gallant**](https://academicintegrity.ucsd.edu/about/staff/index.html), Director, Academic Integrity Office, UC San Diego
 * [**Phillip Compeau**](https://compeau.cbd.cmu.edu/), Associate Teaching Professor, Computational Biology, Carnegie Mellon University
+* [**Karen Flammer**](https://commons.ucsd.edu/who/team/karen-flammer.html), Director of Digital Learning, Teaching + Learning Commons, UC San Diego
+* [**Paul Hadjipieris**](https://commons.ucsd.edu/who/team/paul-hadjipieris.html), Education Specialist, Teaching + Learning Commons, UC San Diego
 * [**Brian Leigh**](https://www-chem.ucsd.edu/faculty/profiles/leigh_brian.html), Assistant Teaching Professor, Chemistry & Biochemistry, UC San Diego
 * [**Ashley Juavinett**](https://neuroedu.biosci.ucsd.edu/), Associate Teaching Professor, Neurobiology, UC San Diego
 * [**Sabeel Mansuri**](https://sabeelmansuri.com/), Founding Engineer, AWS HealthOmics, Amazon
