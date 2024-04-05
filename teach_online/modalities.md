@@ -20,6 +20,10 @@ all core instruction occurs in physically within the classroom.
 By definition, fully in-person instruction is synchronous:
 the instructor and the students physically meet at a lecture hall or classroom,
 and the core instruction occurs synchronously during this in-person meeting time.
+Of course, instructors of a fully in-person course can choose to include some component of asynchronous learning,
+such as having students read/watch materials and solve problems asynchronously before class in a
+{term}`Flipped Classroom` framework {cite:p}`bishop_flipped_2013,akcayir_flipped_2018,compeau_establishing_2019`,
+but the core instructor-to-student interactions still occur synchronously in-person during class time.
 
 ### The Good
 
@@ -52,7 +56,15 @@ but these methods typically require significant staff resources at scale.
 
 ## Fully Online
 
-TODO
+In contrast to fully in-person instruction,
+a class can be structured in a fully online modality.
+Specifically, in a fully online class,
+all interactions occur online:
+there are no in-person interactions whatsoever.
+Unlike with fully in-person instruction,
+in which all core instruction is by definition synchronous,
+the core instruction in a fully online class can be
+synchronous, asynchronous, or a mix of both.
 
 ## Hybrid
 
@@ -65,6 +77,8 @@ TODO
 ## Glossary
 
 ```{glossary}
+Flipped Classroom
+  A teaching method in which students read/watch learning materials and work on problems asynchronously before class, and in-class time is reserved for problem solving, discussion, and other activities {cite:p}`bishop_flipped_2013`.
 Micro-Classes
   Pre-assigned small groups of students led by an Instructional Assistant that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
 Peer Instruction
