@@ -31,14 +31,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
       - name: Install dependencies
         run: |
-          pip install -r teach_online/requirements.txt && \
-          sudo apt-get install -y texlive-fonts-extra texlive-latex-extra texlive-xetex latexmk
+          sudo apt-get update && sudo apt-get upgrade -y && \
+          sudo apt-get install -y latexmk python3-pip texlive-fonts-extra texlive-latex-extra texlive-xetex && \
+          sudo -H pip3 install jupyter-book
       - name: Build Book
         run: |
           jupyter-book build teach_online && \
@@ -48,7 +45,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
           path: 'teach_online/_build/html'
       - name: Deploy to GitHub Pages
         id: deployment
