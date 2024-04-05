@@ -62,6 +62,8 @@ TODO
 
 TODO
 
+## Glossary
+
 ```{glossary}
 Micro-Classes
   Pre-assigned small groups of students led by an Instructional Assistant that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
