@@ -28,7 +28,7 @@ direct interactions between the instructor and the students easier and more natu
 For example, instructors have the ability to physically move around the classroom,
 which enables instructors to employ engaging teaching techniques such as
 {term}`Peer Instruction` {cite:p}`crouch_peer_2001,knight_peer_2018,porter_halving_2013`
-and {term}`Small Group Discussion` {cite:p}`pollock_learning_2011,bennett_talking_2010`.
+and {term}`Small-Group Discussion` {cite:p}`cohen_restructuring_1994,pollock_learning_2011,bennett_talking_2010`.
 
 ### The Bad
 
@@ -64,11 +64,11 @@ TODO
 
 ```{glossary}
 Micro-Classes
-  Pre-assigned small groups of students led by an Instructional Assistant that remain the same throughout the entire course.
+  Pre-assigned small groups of students led by an Instructional Assistant that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
 Peer Instruction
-  A teaching method in which each student applies the core concepts, and then explains those concepts to their classmates.
-Small Group Discussion
-  In-class discussions among small groups of students, potentially facilitated by members of the instructional staff.
+  A teaching method in which each student applies the core concepts, and then explains those concepts to their classmates {cite:p}`crouch_peer_2001`.
+Small-Group Discussion
+  In-class discussions among small groups of students (not necessarily pre-assigned), potentially facilitated by members of the instructional staff {cite:p}`cohen_restructuring_1994`.
 ```
 
 ```{bibliography}
