@@ -2,20 +2,20 @@
 
 I would like to thank the following people for fruitful conversations that have contributed to the development of this resource:
 
-* [Robert Aboukhalil](https://robert.bio/), Staff Software Engineer, Chan Zuckerberg Initiative
-* [Christine Alvarado](https://jacobsschool.ucsd.edu/faculty/profile?id=337), Teaching Professor, Computer Science & Engineering, UC San Diego
-* [Tricia Bertram Gallant](https://academicintegrity.ucsd.edu/about/staff/index.html), Director, Academic Integrity Office, UC San Diego
-* [Phillip Compeau](https://compeau.cbd.cmu.edu/), Associate Teaching Professor, Computational Biology, Carnegie Mellon University
-* [Brian Leigh](https://www-chem.ucsd.edu/faculty/profiles/leigh_brian.html), Assistant Teaching Professor, Chemistry & Biochemistry, UC San Diego
-* [Ashley Juavinett](https://neuroedu.biosci.ucsd.edu/), Associate Teaching Professor, Neurobiology, UC San Diego
-* [Sabeel Mansuri](https://sabeelmansuri.com/), Founding Engineer, AWS HealthOmics, Amazon
-* [Mia Minnes](https://cseweb.ucsd.edu/~minnes/), Teaching Professor, Computer Science & Engineering, UC San Diego
-* [Chris Nitta](https://csiflabs.cs.ucdavis.edu/~cjnitta/), Assistant Professor of Teaching, Computer Science, UC San Diego
-* [Pavel Pevzner](https://bioalgorithms.ucsd.edu/), Professor, Computer Science & Engineering, UC San Diego
-* [Joe Politz](https://jpolitz.github.io/), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
-* [George Porter](https://cseweb.ucsd.edu/~gmporter/), Professor, Computer Science & Engineering, UC San Diego
-* [Leo Porter](https://leoporter.ucsd.edu/), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
-* [Gerald Soosai Raj](https://jacobsschool.ucsd.edu/people/profile/adalbert-gerald-soosai-raj), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**Robert Aboukhalil**](https://robert.bio/), Staff Software Engineer, Chan Zuckerberg Initiative
+* [**Christine Alvarado**](https://jacobsschool.ucsd.edu/faculty/profile?id=337), Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**Tricia Bertram Gallant**](https://academicintegrity.ucsd.edu/about/staff/index.html), Director, Academic Integrity Office, UC San Diego
+* [**Phillip Compeau**](https://compeau.cbd.cmu.edu/), Associate Teaching Professor, Computational Biology, Carnegie Mellon University
+* [**Brian Leigh**](https://www-chem.ucsd.edu/faculty/profiles/leigh_brian.html), Assistant Teaching Professor, Chemistry & Biochemistry, UC San Diego
+* [**Ashley Juavinett**](https://neuroedu.biosci.ucsd.edu/), Associate Teaching Professor, Neurobiology, UC San Diego
+* [**Sabeel Mansuri**](https://sabeelmansuri.com/), Founding Engineer, AWS HealthOmics, Amazon
+* [**Mia Minnes**](https://cseweb.ucsd.edu/~minnes/), Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**Chris Nitta**](https://csiflabs.cs.ucdavis.edu/~cjnitta/), Assistant Professor of Teaching, Computer Science, UC San Diego
+* [**Pavel Pevzner**](https://bioalgorithms.ucsd.edu/), Professor, Computer Science & Engineering, UC San Diego
+* [**Joe Politz**](https://jpolitz.github.io/), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**George Porter**](https://cseweb.ucsd.edu/~gmporter/), Professor, Computer Science & Engineering, UC San Diego
+* [**Leo Porter**](https://leoporter.ucsd.edu/), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**Gerald Soosai Raj**](https://jacobsschool.ucsd.edu/people/profile/adalbert-gerald-soosai-raj), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
 
 ## Funding
 
