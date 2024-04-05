@@ -23,7 +23,7 @@ and the core instruction occurs synchronously during this in-person meeting time
 
 ### The Good
 
-The primary benefit of fully in-person instruction is that it can make
+A primary benefit of fully in-person instruction is that it can make
 direct interactions between the instructor and the students easier and more natural to facilitate.
 For example, instructors have the ability to physically move around the classroom,
 which enables instructors to employ engaging teaching techniques such as
@@ -32,7 +32,13 @@ and **Small Group Discussion** {cite:p}`pollock_learning_2011,bennett_talking_20
 
 ### The Bad
 
-TODO
+A key downside of fully in-person instruction is its inflexibility:
+it relies on an entire class of students to physically come to the classroom at a specified time.
+A myriad of issues can prevent students from physically coming to class:
+illness, family/work obligations, social/personal life issues, commute challenges, etc.
+{cite:p}`gersten_barriers_2023,salguero_understanding_2021`.
+Even factors as small as not wanting to wake up early can be a non-trivial barrier to coming to class
+(and a student's definition of "early" might differ dramatically from an instructor's!).
 
 ## Fully Online
 
