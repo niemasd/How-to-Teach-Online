@@ -47,3 +47,7 @@ TODO
 ## HyFlex
 
 TODO
+
+```{bibliography}
+:style: unsrt
+```
