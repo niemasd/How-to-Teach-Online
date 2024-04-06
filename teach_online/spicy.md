@@ -1,4 +1,4 @@
-# 🔥 Niema's Spicy Takes 🔥
+# Niema's Spicy Takes
 
 ```{note}
 Source Code: [`teach_online/spicy.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/spicy.md)
