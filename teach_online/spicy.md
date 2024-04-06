@@ -1,4 +1,4 @@
-# Niema's Spicy Takes
+# 🔥 Niema's Spicy Takes 🔥
 
 ```{note}
 Source Code: [`teach_online/spicy.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/spicy.md)
@@ -58,7 +58,7 @@ potentially relevant to folks in biomedical fields,
 I have developed [multiple online courses](https://reporter.nih.gov/project-details/9935824)
 with funding from an [NIH R25](https://researchtraining.nih.gov/programs/other-training-related/R25) grant.
 Within UCSD,
-I have also received funding to develop instructional materials with funding from the
+I have also developed instructional materials with funding from the
 [Course Development and Instructional Improvement Program (CDIIP)](https://academicaffairs.ucsd.edu/evc/cdiip.html).
 Even *this very resource* was written with funding from a
 [UC Online](https://www.ucop.edu/educational-innovations-services/programs-and-initiatives/ilti/about.html) grant.

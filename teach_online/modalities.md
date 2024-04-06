@@ -97,11 +97,52 @@ so students who are unable to attend synchronously can watch recordings accordin
 
 ### The Good
 
-TODO
+A key benefit of fully online instruction is its flexibility:
+students can participate from any location they prefer.
+For example, during the early days of the COVID-19 pandemic,
+due to travel restrictions placed by various countries' governments,
+my classes had students from literally all over the world.
+This made synchronous online learning somewhat tricky,
+but by having my instructional team provide Office Hours all day
+(this was a benefit of my massive class sizes:
+massive classes = massive instructional team = plenty of Office Hours to spread across the day),
+meaning any student had at least some Office Hours during reasonable waking hours of their day.
+Less extreme than the global shutdowns during the COVID-19 pandemic,
+as described earlier,
+students may have a difficult time making it to a physical classroom on campus due to many reasons,
+and online instruction (even synchronous) reduces the barrier to entry for these students.
+
+Even beyond the flexibility with regard to physical location that is enjoyed by online instruction in general,
+*asynchronous* online instruction enjoys the benefit of temporal flexibility:
+students can interact with the course in a way that fits into their own unique schedule.
+This can be critical for engaging students with other significant time constraints
+(e.g. family/work obligations).
+It can also enable flexibility with regard to class scheduling
+(e.g. being able to enroll in classes that have conflicting synchronous times if asynchronous options are available for one),
+which could prevent delays in coursework and reduce time-to-degree.
 
 ### The Bad
 
-TODO
+A major limitation of fully online instruction is that it can be *incredibly* difficult for an instructor to engage students,
+and it is arguably *more* difficult to create a sense of community among the students in the class.
+In-person instruction benefits from small casual interactions
+(e.g. chatting with the people sitting near you,
+or chatting with classmates before/after class)
+that can be incredibly helpful for connecting students to each other.
+In fully online courses,
+there are ways to *try* to create a sense of community among the students
+(and we will dive more deeply into these methods in later chapters),
+but despite these efforts,
+students still tend to not connect with other students in the class.
+
+Another key limitation is the ability to maintain Academic Integrity:
+with in-person classes,
+at least *some* assessments (e.g. exams) can be proctored in-person assessments,
+but fully online courses by definiton have fully online assessments,
+and it can be difficult to prevent student cheating.
+We will discuss ways in which student collaboration and cheating can be detecting in online assessments
+(including in unproctored online exams),
+but this is an incredible challenge for instructors.
 
 ## Hybrid
 
