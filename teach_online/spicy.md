@@ -69,8 +69,19 @@ but I was compensated very fairly for my labor
 I understand that there are challenges with finding funding sources depending on where you are,
 and I recognize my privilege of being at a well-supported R1 university to be able to even pursue these funding opportunities,
 but I highly encourage all academics to try to find funding sources they can apply for / utilize
-to support the development of their instructional materials so that they can have the financial freedom to make them available to the general public for free.
+to support the development of their instructional materials
+so that they can have the financial freedom to make them available to the general public for free.
+And if you are someone who simply *uses* an expensive textbook,
+I encourage you to see if there exists an {term}`Open Educational Resource (OER)`
+that could be a reasonable substitute {cite:p}`nipa_assessment_2020,conole_fostering_2012`
 
-```{bibliography}
-:style: unsrt
+## Glossary
+
+```{glossary}
+Learning Management System (LMS)
+  A software application for the administration, documentation, tracking, reporting, automation,
+  and delivery of educational courses/materials {cite:p}`tatnall_learning_2020`.
+Open Educational Resource (OER)
+  A publicly available educational resource that has been released under a license that permits
+  its free use and repurposing by others.
 ```

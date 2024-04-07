@@ -168,7 +168,3 @@ Small-Group Discussion
   In-class discussions among small groups of students (not necessarily pre-assigned),
   potentially facilitated by members of the instructional staff {cite:p}`cohen_restructuring_1994`.
 ```
-
-```{bibliography}
-:style: unsrt
-```
