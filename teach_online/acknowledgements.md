@@ -3,7 +3,7 @@
 I would like to thank the following people for fruitful conversations that have contributed to the development of this resource:
 
 * [**Robert Aboukhalil**](https://robert.bio/), Staff Software Engineer, Chan Zuckerberg Initiative
-* [**Christine Alvarado**](https://jacobsschool.ucsd.edu/faculty/profile?id=337), Teaching Professor, Computer Science & Engineering, UC San Diego
+* [**Christine Alvarado**](https://sites.google.com/ucsd.edu/alvarado), Teaching Professor, Computer Science & Engineering, UC San Diego
 * [**Tricia Bertram Gallant**](https://academicintegrity.ucsd.edu/about/staff/index.html), Director, Academic Integrity Office, UC San Diego
 * [**Phillip Compeau**](https://compeau.cbd.cmu.edu/), Associate Teaching Professor, Computational Biology, Carnegie Mellon University
 * [**Karen Flammer**](https://commons.ucsd.edu/who/team/karen-flammer.html), Director of Digital Learning, Teaching + Learning Commons, UC San Diego
