@@ -45,7 +45,7 @@ there are *many* different technologies that can be used to self-publish instruc
 Even *this very resource* was just written on my laptop and was self-published using [GitHub Pages](https://pages.github.com)!
 When a student enrolls in a class and sees that they have an expensive textbook or homework subscription,
 it's annoying at best,
-and it could be a non-trivial financial hurdle at worst.
+and it could be a non-trivial financial hurdle at worst {cite:p}`jenkins_textbook_2020`.
 
 I want to be very clear that I am not in any way saying that academics should develop or publish their materials without compensation.
 On the contrary,
@@ -70,3 +70,7 @@ I understand that there are challenges with finding funding sources depending on
 and I recognize my privilege of being at a well-supported R1 university to be able to even pursue these funding opportunities,
 but I highly encourage all academics to try to find funding sources they can apply for / utilize
 to support the development of their instructional materials so that they can have the financial freedom to make them available to the general public for free.
+
+```{bibliography}
+:style: unsrt
+```
