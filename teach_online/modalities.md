@@ -146,11 +146,51 @@ but this is an incredible challenge for instructors.
 
 ## Hybrid
 
-TODO
+As can be seen in the discussion above,
+fully in-person and fully online instruction each have their respective pros and cons.
+As a wise little girl in an Old El Paso commercial once said about hard vs. soft tacos,
+[*¿Por qué no los dos? (Why not both?)*](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both).
+In a hybrid class, instruction happens both in-person and online.
+
+This mixture of in-person and online instruction can take many forms.
+For example, depending on how it's structured,
+an in-person {term}`Flipped Classroom` can be considered a form of hybrid learning:
+after self-learning the topics prior to a given in-person class session
+(e.g. watching videos or reading instructional text, solving quizzes, etc.)
+and are then actively engaging with the course staff and their peers online before class
+(e.g. self-scheduled face-to-face online meetings with course staff and/or peers,
+asynchronous discussion board posts, etc.),
+this could be considered a form of hybrid instruction.
+
+For me personally,
+the COVID-19 pandemic forced me to learn how to broadcast an interactive classroom session on Zoom:
+I have learned how to effectively use Zoom's features
+(e.g. monitoring the Zoom chat, screen-sharing, annotations, whiteboard, polls, automated recording, etc.),
+and I have brought those techniques into my in-person classrooms.
+Specifically, in my in-person classes,
+I broadcast my class on Zoom *while I am teaching in-person*,
+and I actively monitor questions in the Zoom chat while soliciting in-person students.
+I will talk more about specific techniques I employ in-class later in a later chapter,
+but the result is that some students participate fully in-person,
+some students participate fully online in a synchronous manner via Zoom,
+and some students participate fully online asynchronously via recordings.
 
 ## HyFlex
 
-TODO
+I want to briefly revisit the following comment I made about my hybrid courses:
+
+> some students participate fully in-person,
+> some students participate fully online in a synchronous manner via Zoom,
+> and some students participate fully online asynchronously via recordings.
+
+Interestingly, these 3 categories of participation are not mutually exclusive!
+On the contrary, *very few* students actually stuck to a single category for the entire course.
+Instead, most students typically participated in a blend of all 3 categories:
+sometimes attend class in-person,
+sometimes attend class synchronously on Zoom,
+and sometimes miss synchronous class but asynchronously watch the recordings.
+
+TODO TALK ABOUT HYFLEX
 
 ## Glossary
 
