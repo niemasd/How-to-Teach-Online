@@ -148,7 +148,9 @@ but this is an incredible challenge for instructors.
 
 As can be seen in the discussion above,
 fully in-person and fully online instruction each have their respective pros and cons.
-As a wise little girl in an Old El Paso commercial once said about hard vs. soft tacos,
+As a wise little girl in an
+[Old El Paso commercial](https://youtu.be/YSTJ5Xe-E8c?si=3M0p24wo2N6EtOpF)
+once said about hard vs. soft tacos,
 [*¿Por qué no los dos? (Why not both?)*](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both).
 In a hybrid class, instruction happens both in-person and online.
 
@@ -175,13 +177,13 @@ but the result is that some students participate fully in-person,
 some students participate fully online in a synchronous manner via Zoom,
 and some students participate fully online asynchronously via recordings.
 
-## HyFlex
+### HyFlex
 
 I want to briefly revisit the following comment I made about my hybrid courses:
 
-> some students participate fully in-person,
+> *[...] some students participate fully in-person,
 > some students participate fully online in a synchronous manner via Zoom,
-> and some students participate fully online asynchronously via recordings.
+> and some students participate fully online asynchronously via recordings.*
 
 Interestingly, these 3 categories of participation are not mutually exclusive!
 On the contrary, *very few* students actually stuck to a single category for the entire course.
@@ -189,8 +191,15 @@ Instead, most students typically participated in a blend of all 3 categories:
 sometimes attend class in-person,
 sometimes attend class synchronously on Zoom,
 and sometimes miss synchronous class but asynchronously watch the recordings.
+Rather than forcing students to commit to *either* in-person *or* online participation for the entire course,
+{term}`HyFlex` (Hybrid-Flexible) course design allows students to flexibly choose
+between in-person or online participation {cite:p}`beatty_transitioning_2007`.
+The fundamental values in HyFlex design are the following {cite:p}`beatty_hybrid-flexible_2019`:
 
-TODO TALK ABOUT HYFLEX
+1. **Learner Choice:** Provide meaningful participation modalities between which students can choose
+2. **Equivalency:** Ensure that learning outcomes are equivalent across modalities
+3. **Reusability:** Capture learning activities in each mode to reuse in other modalities
+4. **Accessibility:** Ensure that all students are equipped with the necessary technology access and skills to have equitable access to all participation modalities
 
 ## Glossary
 
@@ -198,6 +207,9 @@ TODO TALK ABOUT HYFLEX
 Flipped Classroom
   A teaching method in which students read/watch learning materials and work on problems asynchronously before class,
   and in-class time is reserved for problem solving, discussion, and other activities {cite:p}`bishop_flipped_2013`.
+HyFlex
+  Short for "Hybrid-Flexible": a model of course design that allows students
+  to flexibly choose between in-person or online participation {cite:p}`beatty_transitioning_2007`.
 Micro-Classes
   Pre-assigned small groups of students led by an Instructional Assistant
   that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
