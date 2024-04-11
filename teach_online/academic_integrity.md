@@ -61,11 +61,19 @@ Is this infringement of student privacy a necessary evil {cite:p}`selwyn_necessa
 {cite:t}`eaton_remote_2024` provides an excellent exploration of the evidence for and against the use of remote proctoring,
 so I *highly* recommend reading it thoroughly.
 Here, I will briefly summarize the key points of discussion.
-With respect to deterrence of cheating,
+With respect to *deterrence* of cheating,
 many studies split students into "proctored" vs. "unproctored" groups
 and evaluate student grades across groups.
 Many of these studies find lower grades in the "proctored" group,
-a result which is commonly interpreted as evidence of deterrence.
+a result which is commonly interpreted as evidence of deterrence of cheating
+(though additional test anxiety could also be a contributing factor to lower performance).
+With respect to *detection* of cheating,
+while many remote proctoring services *claim* to be effective at catching cheating,
+the (*very* few) studies that stress-tested them found that
+remote proctoring services don't seem to actually be very effective,
+at least not if students have some reasonable technical know-how
+(or *know* someone with technical know-how)
+{cite:p}`burgess_watching_2022,bergmans_efficacy_2021`.
 
 ```{glossary}
 Detection
