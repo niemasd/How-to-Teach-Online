@@ -45,7 +45,27 @@ The idea behind remote proctoring is intuitive:
 students are typically proctored when they take in-person exams,
 so they should be proctored when they take remote exams... Right?
 
-TODO CONTINUE HERE
+Well, the situation might not be so simple.
+In a proctored in-person exam,
+all students leave their homes to meet at a specified location to take their exam
+(commonly a lecture hall or some other facility at their university).
+In remote proctoring, however,
+most students take the exam from their home
+(typically in a personal space like their bedroom) {cite:p}`stone_understanding_2021`.
+Taking an exam is already stressful enough,
+but being watched over the internet contributes to test anxiety
+(as well as exacerbating other equity issues, such as internet literacy,
+access to reliable technology and a dedicated study space, etc.) {cite:p}`conijn_fear_2022`.
+Is this infringement of student privacy a necessary evil {cite:p}`selwyn_necessary_2023` to ensure Academic Integrity?
+
+{cite:t}`eaton_remote_2024` provides an excellent exploration of the evidence for and against the use of remote proctoring,
+so I *highly* recommend reading it thoroughly.
+Here, I will briefly summarize the key points of discussion.
+With respect to deterrence of cheating,
+many studies split students into "proctored" vs. "unproctored" groups
+and evaluate student grades across groups.
+Many of these studies find lower grades in the "proctored" group,
+a result which is commonly interpreted as evidence of deterrence.
 
 ```{glossary}
 Detection
