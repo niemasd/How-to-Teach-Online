@@ -66,6 +66,9 @@ many studies split students into "proctored" vs. "unproctored" groups
 and evaluate student grades across groups.
 Many of these studies find lower grades in the "proctored" group,
 a result which is commonly interpreted as evidence of deterrence of cheating
+{cite:p}`akaaboune_accountability_2022,alessio_examining_2017,
+carstairs_internet_2009,rupert_remote_2016,dendir_cheating_2020,
+harmon_are_2008,karim_cheating_2014,reisenwitz_examining_2020,stapleton_remote_2021`
 (though additional test anxiety could also be a contributing factor to lower performance).
 With respect to *detection* of cheating,
 while many remote proctoring services *claim* to be effective at catching cheating,
