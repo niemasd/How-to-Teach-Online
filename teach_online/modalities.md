@@ -152,8 +152,16 @@ As a wise little girl in an
 [Old El Paso commercial](https://youtu.be/YSTJ5Xe-E8c?si=3M0p24wo2N6EtOpF)
 once said about hard vs. soft tacos,
 [*¿Por qué no los dos? (Why not both?)*](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both).
-In a hybrid class, instruction happens both in-person and online.
 
+```{figure} ../images/why_not_both_meme.png
+---
+height: 300px
+name: why-not-both-meme
+---
+"Why not both?" meme.
+```
+
+In a hybrid class, instruction happens both in-person and online.
 This mixture of in-person and online instruction can take many forms.
 For example, depending on how it's structured,
 an in-person {term}`Flipped Classroom` can be considered a form of hybrid learning:
