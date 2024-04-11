@@ -27,7 +27,3 @@ This online training module was developed with the support of a
 awarded to me (PI) and Karen Flammer (co-PI) by the
 [University of California Office of the President (UCOP)](https://www.ucop.edu/):
 *An Online Training Module to Provide Instructors Guidance in Developing and Offering Fully Online and Hybrid Courses*.
-
-```{bibliography}
-:style: unsrt
-```
