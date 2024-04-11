@@ -20,7 +20,7 @@ we first need to present some foundational terms and concepts.
 ### Deterrence vs. Detection
 
 There are two key terms that describe two closely-related yet distinct concepts:
-{term}`deterrence` and {term}`detection`.
+**deterrence** and **detection**.
 {term}`Deterrence` is the act of correctly identify cases of cheating
 (e.g. by comparing submissions, witnessing copying, using plagiarism detection tools, etc.),
 whereas {term}`deterrence` is the act of stopping/preventing people from cheating {cite:p}`eaton_remote_2024`
@@ -37,11 +37,11 @@ and ensuring the integrity of this form of evaluation is an important goal.
 
 When administering remote exams,
 especially in the early days of the COVID-19 pandemic,
-many instructors relied on {term}`Remote Proctoring`,
+many instructors relied on {term}`remote proctoring`,
 in which students take an exam on a computer
 while being supervised by a person and/or computer software
 {cite:p}`eaton_remote_2024`.
-The idea behind {term}`Remote Proctoring` is intuitive:
+The idea behind remote proctoring is intuitive:
 students are typically proctored when they take in-person exams,
 so they should be proctored when they take remote exams... Right?
 
