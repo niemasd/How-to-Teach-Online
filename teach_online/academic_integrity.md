@@ -149,7 +149,24 @@ and more common misconceptions will lead to more frequent wrong answers.
 In other words,
 the *uniqueness* of a shared wrong answer is interesting.
 
-TODO
+In {cite:t}`moshiri_scalable_2022`,
+we proposed the [Moshiri Exam Similarity Score (MESS)](https://github.com/niemasd/MESS)
+that can be calculated for a given pair of students *x* and *y* as follows:
+
+* For a single question, define the "score" for that question one of the following:
+  * If either student (or both) got the question right, give a score of 0 for that question
+  * If both students got the question wrong, but they put *different* wrong answers, give a score of 0 for that question
+  * If both students put the *same* wrong answer, define the score of that question to be the proportion of students who put a *different* wrong answer
+    * In other words, if *n* students got the question wrong, but only *k* students put this exact wrong answer, the score of this question is (*n*–*k*)/*n*
+    * If every student who got the question wrong put this same wrong answer (e.g. True/False), the score would be 0
+    * If these students were the only ones to put this specific wrong answer, the score would approach 1
+* Calculate the score of every question on the exam as described above, take their sum, and normalize by dividing by the number of questions
+  * In other words, take the average
+
+The calculation description above is intentionally written in plain English
+(rather than using formal math notation)
+in an attempt to keep this resource reasonably accessible across disciplines,
+but the formal mathematical definition of MESS can be found in {cite:t}`moshiri_scalable_2022`.
 
 ```{glossary}
 Detection
