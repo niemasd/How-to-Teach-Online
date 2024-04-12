@@ -158,8 +158,8 @@ that can be calculated for a given pair of students *x* and *y* as follows:
   * If both students got the question wrong, but they put *different* wrong answers, give a score of 0 for that question
   * If both students put the *same* wrong answer, define the score of that question to be the proportion of students who put a *different* wrong answer
     * In other words, if *n* students got the question wrong, but only *k* students put this exact wrong answer, the score of this question is (*n*–*k*)/*n*
-    * If every student who got the question wrong put this same wrong answer (e.g. True/False), the score would be 0
-    * If these students were the only ones to put this specific wrong answer, the score would approach 1
+    * If every student who got the question wrong put this same wrong answer (i.e., *k* = *n*, e.g. True/False), the score would be 0
+    * If these students were the only students to put this specific wrong answer (i.e., *k* = 2), the score would approach 1
 * Calculate the score of every question on the exam as described above, take their sum, and normalize by dividing by the number of questions
   * In other words, take the average
 
