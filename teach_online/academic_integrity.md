@@ -97,7 +97,14 @@ The logic here is intuitive:
 if two students have suspiciously similar exams,
 they may have cheated on the exam
 (e.g. collaboration, or one student copying from the other).
-However, as a pedantic Computer Scientist,
+For open-ended questions that require free form (e.g. essay) responses,
+detecting exam similarity is easy:
+just use a service like [Turnitin](https://www.turnitin.com/):
+overly identical sentence structure and word choice is a strong indicator of cheating.
+
+However, what about exams with multiple choice,
+short answer, numerical, etc. questions?
+As a pedantic Computer Scientist,
 I will pose a question that *sounds* simple but is actually deceptively complex:
 how exactly do we define exam "similarity"?
 
@@ -109,27 +116,40 @@ name: cant_argue_with_that_meme
 You, when you realize the true complexity of the question.
 ```
 
-At a glance, one might think to define "similarity" as the
-proportion of questions both students responded to with the exact same answer.
-In other words, count the number of questions that had identical answers,
-and divide by the total number of questions on the exam.
-I mean, if two students collaborate/copy on an exam,
-we expect them to have identical (or near-identical) answers, right?
-Well, sure, that's true:
-students who collaborate/copy will likely have a lot of identical answers.
-However, the reverse direction is not necessarily true:
-students who have a lot of identical answers didn't necessarily collaborate/cheat:
+At a glance, one might define "similarity" as the
+proportion of questions both students responded to with the exact same answer:
+if two students collaborate on an exam,
+we expect them to have identical (or near-identical) answers... Right?
+Sure, that's true:
+students who collaborate will likely have many identical answers.
+However, the reverse is not necessarily true:
 assuming the instructor wrote a fair exam,
 students *should* hopefully converge towards the correct answers,
-meaning two students who mastered all of the course materials should have identical
-(or near-identical) exams (all of the right answers).
+meaning two students who did really well will *also* have a lot of identical answers
+(the *correct* answers).
 In the world of statistics,
-we call this simple model [non-identifiable](https://en.wikipedia.org/wiki/Identifiability):
-two different input scenarios (collaborate vs. just do well on the exam)
+we call this a [non-identifiable](https://en.wikipedia.org/wiki/Identifiability) model:
+two different input scenarios (collaborate vs. both did well on the exam)
 result in the same outcome (high proportion of identical answers),
 so the proportion of identical answers may not be super informative in cheating detection on its own.
 
-TODO TALK ABOUT SHARED IDENTICAL ANSWERS
+Okay, so shared identical *correct* responses might not be super informative,
+but what about shared *incorrect* responses?
+If two students make the exact same mistake on multiple questions,
+that could be suspicious.
+But what about True/False questions?
+If two students get the question wrong,
+they *must* have the same wrong answer:
+there's only one possible wrong answer!
+As an extension of this line of thinking,
+even if there are multiple possible wrong answers,
+some wrong answers will be more frequent than others:
+the same misconception will likely lead to the same wrong answer,
+and more common misconceptions will lead to more frequent wrong answers.
+In other words,
+the *uniqueness* of a shared wrong answer is interesting.
+
+TODO
 
 ```{glossary}
 Detection
