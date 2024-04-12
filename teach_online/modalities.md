@@ -156,7 +156,7 @@ once said about hard vs. soft tacos,
 ```{figure} ../images/why_not_both_meme.png
 ---
 height: 300px
-name: why-not-both-meme
+name: why_not_both_meme
 ---
 "Why not both?" meme.
 ```

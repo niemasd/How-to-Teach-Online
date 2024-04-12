@@ -89,6 +89,48 @@ the following services may be of interest:
 * [Proctorio](https://proctorio.com/) records students while they take exams and performs automated software-based video analysis as well as live human review
 * Depending on the size of your class, your course staff can proctor students live using [Zoom](https://zoom.us/) or similar video conferencing services
 
+### Exam Similarity Detection
+
+Beyond just proctoring students *during* the exam,
+another technique for detecting cheating is to look for similarity in exam responses.
+The logic here is intuitive:
+if two students have suspiciously similar exams,
+they may have cheated on the exam
+(e.g. collaboration, or one student copying from the other).
+However, as a pedantic Computer Scientist,
+I will pose a question that *sounds* simple but is actually deceptively complex:
+how exactly do we define exam "similarity"?
+
+```{figure} ../images/cant_argue_with_that_meme.png
+---
+height: 300px
+name: cant_argue_with_that_meme
+---
+You, when you realize the true complexity of the question.
+```
+
+At a glance, one might think to define "similarity" as the
+proportion of questions both students responded to with the exact same answer.
+In other words, count the number of questions that had identical answers,
+and divide by the total number of questions on the exam.
+I mean, if two students collaborate/copy on an exam,
+we expect them to have identical (or near-identical) answers, right?
+Well, sure, that's true:
+students who collaborate/copy will likely have a lot of identical answers.
+However, the reverse direction is not necessarily true:
+students who have a lot of identical answers didn't necessarily collaborate/cheat:
+assuming the instructor wrote a fair exam,
+students *should* hopefully converge towards the correct answers,
+meaning two students who mastered all of the course materials should have identical
+(or near-identical) exams (all of the right answers).
+In the world of statistics,
+we call this simple model [non-identifiable](https://en.wikipedia.org/wiki/Identifiability):
+two different input scenarios (collaborate vs. just do well on the exam)
+result in the same outcome (high proportion of identical answers),
+so the proportion of identical answers may not be super informative in cheating detection on its own.
+
+TODO TALK ABOUT SHARED IDENTICAL ANSWERS
+
 ```{glossary}
 Detection
   The act of correctly identify cases of cheating {cite:p}`eaton_remote_2024`.
