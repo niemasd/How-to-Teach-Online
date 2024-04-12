@@ -60,23 +60,34 @@ Is this infringement of student privacy a necessary evil {cite:p}`selwyn_necessa
 
 {cite:t}`eaton_remote_2024` provides an excellent exploration of the evidence for and against the use of remote proctoring,
 so I *highly* recommend reading it thoroughly.
-Here, I will briefly summarize the key points of discussion.
-With respect to *deterrence* of cheating,
-many studies split students into "proctored" vs. "unproctored" groups
-and evaluate student grades across groups.
-Many of these studies find lower grades in the "proctored" group,
-a result which is commonly interpreted as evidence of deterrence of cheating
-{cite:p}`akaaboune_accountability_2022,alessio_examining_2017,
-carstairs_internet_2009,rupert_remote_2016,dendir_cheating_2020,
-harmon_are_2008,karim_cheating_2014,reisenwitz_examining_2020,stapleton_remote_2021`
-(though additional test anxiety could also be a contributing factor to lower performance).
-With respect to *detection* of cheating,
-while many remote proctoring services *claim* to be effective at catching cheating,
-the (*very* few) studies that stress-tested them found that
-remote proctoring services don't seem to actually be very effective,
-at least not if students have some reasonable technical know-how
-(or *know* someone with technical know-how)
-{cite:p}`burgess_watching_2022,bergmans_efficacy_2021`.
+Here, I will briefly summarize the key points of discussion:
+
+* With respect to **deterrence** of cheating:
+  * Many studies split students into "proctored" vs. "unproctored" groups and evaluate student grades across groups
+  * Many of these studies find lower grades in the "proctored" group
+    * This result is commonly interpreted as evidence of deterrence of cheating
+      {cite:p}`akaaboune_accountability_2022,alessio_examining_2017,
+               carstairs_internet_2009,rupert_remote_2016,dendir_cheating_2020,
+               harmon_are_2008,karim_cheating_2014,reisenwitz_examining_2020,stapleton_remote_2021`
+    * Additional test anxiety could also be a contributing factor to lower performance
+* With respect to **detection** of cheating:
+  * Remote proctoring services claim to be effective at catching cheating
+  * In reality, they don't seem to be very effective
+    * At least not if students have some reasonable technical know-how {cite:p}`burgess_watching_2022,bergmans_efficacy_2021`
+* With respect to **privacy**:
+  * Some students feel uncomfortable, but others are actually fine with being proctored remotely {cite:p}`karim_cheating_2014,selwyn_necessary_2023`
+  * There are also privacy concerns regarding how proctoring companies store/use student data {cite:p}`langenfeld_internetbased_2020`
+  * It can contribute to the culture of surveillance and to the acceptance of surveillance in other realms {cite:p}`dawson_defending_2020`
+
+Again, I *strongly* encourage you to read {cite:t}`eaton_remote_2024` in its entirety,
+as it does an *excellent* job presenting the research regarding the pros and cons of remote proctoring.
+If, after reading the relevant research and weighing the pros and cons,
+you decide that you want to conduct remote proctoring in your course,
+the following services may be of interest:
+
+* [ProctorU](https://www.proctoru.com/) (now [Meazure Learning](https://www.meazurelearning.com/exam-proctoring/remote-exam-proctoring)) has live proctors monitor students in real-time
+* [Proctorio](https://proctorio.com/) records students while they take exams and performs automated software-based video analysis as well as live human review
+* Depending on the size of your class, your course staff can proctor students live using [Zoom](https://zoom.us/) or similar video conferencing services
 
 ```{glossary}
 Detection
