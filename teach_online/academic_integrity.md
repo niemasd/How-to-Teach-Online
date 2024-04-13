@@ -110,7 +110,6 @@ how exactly do we define exam "similarity"?
 
 ```{figure} ../images/cant_argue_with_that_meme.png
 ---
-height: 300px
 name: cant_argue_with_that_meme
 ---
 You, when you realize the true complexity of the question.
@@ -183,10 +182,10 @@ Thus, we can use the distribution of all pairwise MESS calculations as an approx
 and we can try to identify collaboration by looking at outliers of this distribution
 (e.g. perform one-sided tests of statistical significance,
 as well as multiple hypothesis test correction).
+An example plot of a MESS distribution can be found in {numref}`mess_distribution`.
 
 ```{figure} ../images/mess_distribution.png
 ---
-height: 500px
 name: mess_distribution
 ---
 Distribution of all pairwise MESS calculations in a 500-person Advanced Data Structures course (log-scale).
@@ -251,9 +250,11 @@ so we can do the following:
     (e.g. [Fisher's exact test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test)
     or [Chi-squared test](https://en.wikipedia.org/wiki/Chi-squared_test) with 2 degrees of freedom)
 
+An example plot of Red, Yellow, and Green Count distribution can be found in {numref}`ryg_distributions`.
+
 ```{figure} ../images/ryg_distributions.png
 ---
-height: 500px
+width: 100%
 name: ryg_distributions
 ---
 Distributions of all pairwise Red, Yellow, and Green Counts vs. Black Counts in a 500-person Advanced Data Structures course (log-scale).

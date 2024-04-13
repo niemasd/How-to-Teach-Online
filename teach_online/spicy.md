@@ -12,12 +12,12 @@ consume one or more grains of salt,
 and reread everything with the grain(s) of salt in mind.
 In this chapter,
 I will be giving you some of my spicy takes,
-opinions that have me looking like this from time to time:
+opinions that have me looking like this from time to time
+({numref}`spicy_take_swords_meme`):
 
 ```{figure} ../images/spicy_take_swords_meme.jpg
 ---
-height: 300px
-name: spicy-take-swords-meme
+name: spicy_take_swords_meme
 ---
 Niema when he describes some of his spicier takes.
 ```

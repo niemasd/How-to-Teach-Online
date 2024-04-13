@@ -151,7 +151,8 @@ fully in-person and fully online instruction each have their respective pros and
 As a wise little girl in an
 [Old El Paso commercial](https://youtu.be/YSTJ5Xe-E8c?si=3M0p24wo2N6EtOpF)
 once said about hard vs. soft tacos,
-[*¿Por qué no los dos? (Why not both?)*](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both).
+[*¿Por qué no los dos? (Why not both?)*](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both)
+({numref}`why_not_both_meme`).
 
 ```{figure} ../images/why_not_both_meme.png
 ---
