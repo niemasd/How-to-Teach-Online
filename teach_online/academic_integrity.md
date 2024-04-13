@@ -178,8 +178,11 @@ we would have *n*/2 cheating pairs of students out of *n*(*n*–1)/2 total pairs
 In a class of *n* = 100 students,
 we would have 100/2 = 50 cheating pairs and out of 100(99)/2 = 4,950 total pairs of students
 (just over 1% of all pairs of students).
-Thus, we can use the distribution of all pairwise MESS calculations as an approximation of the null distribution,
-and we can try to identify collaboration by looking at outliers of this distribution.
+Thus, we can use the distribution of all pairwise MESS calculations as an approximation of the null distribution
+(null hypothesis = "MESS score resulted from no collaboration"),
+and we can try to identify collaboration by looking at outliers of this distribution
+(e.g. perform one-sided tests of statistical significance,
+as well as multiple hypothesis test correction).
 
 ```{figure} ../images/mess_distribution.png
 ---
@@ -205,16 +208,69 @@ However, there are a handful of limitations of this method:
 * Thus, this method is *specific* (i.e., high MESS typically implies collaboration), but not *sensitive* (i.e., it can miss true cases of cheating)
 
 MESS gives us a way of looking at the *uniqueness* of shared incorrect responses,
-but we can actually gain interesting insights from the *number* of shared incorrect responses
+but we can also gain interesting insights from the *number* of shared incorrect responses
 in the context of all incorrect responses they submitted.
-TODO WRITE ABOUT RYG DISTRIBUTION
+Specifically,
+expanding on {cite:t}`moshiri_scalable_2022`,
+*while* performing all MESS calculations,
+we can also count the following for every pair of students
+(the colors are arbitrary and aim to align with "scarier color" = "more suspicious"):
 
-We wrote a Python program to perform all pairwise MESS calculations,
+* Red Count = The number of questions both students missed with the *exact same* wrong answer
+  * If students collaborate, we expect a disproportionately large number of identical wrong answers between them
+* Yellow Count = The number of questions both students missed, but with *different* wrong answers
+  * If students collaborate, we might expect them to put the same wrong answer,
+    so Yellow questions could be evidence against collaboration
+  * However, if students collaborate and are torn between two potential answers,
+    one might guess one answer, and one might guess another,
+    so Yellow questions could be evidence supporting collaboration
+  * Thus, overall, Yellow questions are semi-neutral
+* Green Count = The number of questions only one of the two students missed
+  * In other words, the number of questions one student got right and one student got wrong
+  * If students collaborate, we expect them to miss the same questions, so a high Green Count could be evidence against collaboration
+* Black Count = Red Count + Yellow Count + Green Count
+  * In other words, this is the total number of questions *at least* one student missed
+  * Why is this helpful? We'll discuss it a bit later in this section
+
+Recall from the earlier thought experiment that
+we can safely assume that the *vast majority* of pairwise comparisons are *not* cheating pairs.
+As a result, we can look at the distributions of the Red, Yellow, and Green counts
+across all pairs of students in the class as approximations of their null distributions
+(null hypothesis = "Red, Yellow, and Green Counts resulted from no collaboration"),
+and we can try to identify collaboration by looking at outliers of these distributions.
+The range of possible Red, Yellow, and Green Counts for a given pair of students is bounded by their Black Count
+(Black = Red + Yellow + Green),
+so we can do the following:
+
+* Plot the 2D distributions of Red, Yellow, and Green Counts (vertical axis) vs. Black Count (horizontal axis)
+  * In other words, each pair of students defines 3 points: (Black, Red), (Black, Yellow), and (Black, Green)
+* Plot a given pair's (Black, Red), (Black, Yellow), and (Black, Green) points
+* Check if the pair's Red, Yellow, and Green Counts deviate significantly from what is expected at that Black Count
+  * Estimate expected values based on the null distributions at that Black Count
+  * Perform a statistical test to check for significance
+    (e.g. [Fisher's exact test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test)
+    or [χ2 test](https://en.wikipedia.org/wiki/Chi-squared_test) with 2 degrees of freedom)
+
+```{figure} ../images/ryg_distributions.png
+---
+height: 500px
+name: ryg_distributions
+---
+Distributions of all pairwise Red, Yellow, and Green Counts vs. Black Counts in a 500-person Advanced Data Structures course (log-scale).
+2D [Kernel Density Estimates (KDEs)](https://en.wikipedia.org/wiki/Kernel_density_estimation) are shown as colored contours,
+and best-fit lines are shown for each distribution.
+A single pair of students with suspiciously outlying Red (9), Yellow (0), and Green (0) Counts for their given Black Count (9)
+is shown as a black vertical line with colored dots.
+```
+
+We wrote suite of Python programs to perform all pairwise
+Red Count, Yellow Count, Green Count, and MESS calculations,
 calculate a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
-plot the distribution,
-and perform other downstream analyses on [GitHub](https://github.com/niemasd/MESS).
+plot the distributions,
+and perform other downstream analyses,
+which is available as an open source project on [GitHub](https://github.com/niemasd/MESS).
 The tools in this repository support exams with multiple choice, short answer, math, Parsons, etc. problems:
-they simply perform string equality comparisons between responses.
+they simply perform string equality comparisons between responses to determine response equality.
 
 ```{glossary}
 Detection
