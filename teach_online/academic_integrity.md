@@ -249,7 +249,7 @@ so we can do the following:
   * Estimate expected values based on the null distributions at that Black Count
   * Perform a statistical test to check for significance
     (e.g. [Fisher's exact test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test)
-    or [χ2 test](https://en.wikipedia.org/wiki/Chi-squared_test) with 2 degrees of freedom)
+    or [Chi-squared test](https://en.wikipedia.org/wiki/Chi-squared_test) with 2 degrees of freedom)
 
 ```{figure} ../images/ryg_distributions.png
 ---
