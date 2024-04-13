@@ -150,29 +150,63 @@ In other words,
 the *uniqueness* of a shared wrong answer is interesting.
 
 In {cite:t}`moshiri_scalable_2022`,
-we proposed the [Moshiri Exam Similarity Score (MESS)](https://github.com/niemasd/MESS)
+we proposed the {term}`Moshiri Exam Similarity Score (MESS)`
 that can be calculated for a given pair of students *x* and *y* as follows:
 
-* For a single question, define the "score" for that question one of the following:
-  * If either student (or both) got the question right, give a score of 0 for that question
-  * If both students got the question wrong, but they put *different* wrong answers, give a score of 0 for that question
-  * If both students put the *same* wrong answer, define the score of that question to be the proportion of students who put a *different* wrong answer
+* For a single question, define the "score" for that question as one of the following:
+  * If either student (or both) got the question right, the score is 0
+  * If both students got the question wrong, but they put *different* wrong answers, the score is 0
+  * If both students put the *same* wrong answer, the score of that question is the proportion of students who put a *different* wrong answer
     * In other words, if *n* students got the question wrong, but only *k* students put this exact wrong answer, the score of this question is (*n*–*k*)/*n*
     * If every student who got the question wrong put this same wrong answer (i.e., *k* = *n*, e.g. True/False), the score would be 0
     * If these students were the only students to put this specific wrong answer (i.e., *k* = 2), the score would approach 1
 * Calculate the score of every question on the exam as described above, take their sum, and normalize by dividing by the number of questions
-  * In other words, take the average
+  * In other words, the overall exam score is the average of the scores of the individual questions
 
-The calculation description above is intentionally written in plain English
-(rather than using formal math notation)
+The calculation description above is intentionally written colloquially
+(rather than using formal mathematical notation)
 in an attempt to keep this resource reasonably accessible across disciplines,
 but the formal mathematical definition of MESS can be found in {cite:t}`moshiri_scalable_2022`.
+
+Now that we've defined MESS, what can we actually do with it?
+If we calculate MESS on all pairs of students in the class,
+we can assume that the *vast* majority of MESS scores we calculate will *not* be between cheaters.
+We can validate this assumption with a simple thought experiment:
+in a class of *n* students,
+if *every single student* paired up with another student to collaborate on the exam,
+we would have *n*/2 cheating pairs of students out of *n*(*n*–1)/2 total pairs of students.
+In a class of *n* = 100 students,
+we would have 100/2 = 50 cheating pairs and out of 100(99)/2 = 4,950 total pairs of students
+(just over 1% of all pairs of students).
+Thus, we can use the distribution of all pairwise MESS calculations as an approximation of the null distribution:
+
+```{figure} ../images/mess_distribution.png
+---
+height: 500px
+name: mess_distribution
+---
+Distribution of all pairwise MESS calculations in a 500-person Advanced Data Structures course (log-scale).
+A histogram is shown as blue bars,
+a [Kernel Density Estimate (KDE)](https://en.wikipedia.org/wiki/Kernel_density_estimation) is shown as a dashed black curve,
+and the [Probability Density Function (PDF)](https://en.wikipedia.org/wiki/Probability_density_function)
+of a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution) is shown as a black line.
+Statistical significance tests were conducted on all scores to the right of the dashed red line.
+```
+
+TODO WRITE ABOUT RYG DISTRIBUTION
+
+We wrote a Python program to perform all pairwise MESS calculations,
+calculate a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
+plot the distribution,
+and perform other downstream analyses on [GitHub](https://github.com/niemasd/MESS).
 
 ```{glossary}
 Detection
   The act of correctly identify cases of cheating {cite:p}`eaton_remote_2024`.
 Deterrence
   The act of stopping people from cheating {cite:p}`eaton_remote_2024`.
+Moshiri Exam Similarity Score (MESS)
+  An exam similarity score that increases in value as shared incorrect responses are more unique {cite:p}`moshiri_scalable_2022`.
 Remote Proctoring
   A mode of exam administration in which students take the exam on a computer
   while being supervised by a person and/or computer software {cite:p}`eaton_remote_2024`.
