@@ -178,7 +178,8 @@ we would have *n*/2 cheating pairs of students out of *n*(*n*–1)/2 total pairs
 In a class of *n* = 100 students,
 we would have 100/2 = 50 cheating pairs and out of 100(99)/2 = 4,950 total pairs of students
 (just over 1% of all pairs of students).
-Thus, we can use the distribution of all pairwise MESS calculations as an approximation of the null distribution:
+Thus, we can use the distribution of all pairwise MESS calculations as an approximation of the null distribution,
+and we can try to identify collaboration by looking at outliers of this distribution.
 
 ```{figure} ../images/mess_distribution.png
 ---
@@ -193,12 +194,27 @@ of a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponenti
 Statistical significance tests were conducted on all scores to the right of the dashed red line.
 ```
 
+However, there are a handful of limitations of this method:
+
+* If two students happen to make the same very unique mistake, it could artificially give them a very high similarity score
+  * This is a *feature*, not a *bug*: if two students make the same *extremely* unique mistake, an instructor should investigate
+* If two students are very *successful* in their cheating, this method would fail to detect their collaboration
+  * There simply won't be enough incorrect responses to detect similarity
+  * In the extreme, if they achieve perfect scores through collaboration, their MESS calculation will be 0
+* If two cheating students have many identical wrong answers, but they happen to pick *popular* wrong answers, their score will be artificially low
+* Thus, this method is *specific* (i.e., high MESS typically implies collaboration), but not *sensitive* (i.e., it can miss true cases of cheating)
+
+MESS gives us a way of looking at the *uniqueness* of shared incorrect responses,
+but we can actually gain interesting insights from the *number* of shared incorrect responses
+in the context of all incorrect responses they submitted.
 TODO WRITE ABOUT RYG DISTRIBUTION
 
 We wrote a Python program to perform all pairwise MESS calculations,
 calculate a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
 plot the distribution,
 and perform other downstream analyses on [GitHub](https://github.com/niemasd/MESS).
+The tools in this repository support exams with multiple choice, short answer, math, Parsons, etc. problems:
+they simply perform string equality comparisons between responses.
 
 ```{glossary}
 Detection
