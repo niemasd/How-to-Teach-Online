@@ -264,7 +264,7 @@ A single pair of students with suspiciously outlying Red (9), Yellow (0), and Gr
 is shown as a black vertical line with colored dots.
 ```
 
-We wrote suite of Python programs to perform all pairwise
+We wrote a suite of Python programs to perform all pairwise
 Red Count, Yellow Count, Green Count, and MESS calculations,
 calculate a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
 plot the distributions,
