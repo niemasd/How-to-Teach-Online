@@ -273,6 +273,23 @@ which is available as an open source project on [GitHub](https://github.com/niem
 The tools in this repository support exams with multiple choice, short answer, math, Parsons, etc. problems:
 they simply perform string equality comparisons between responses to determine response equality.
 
+## Programming Assignments
+
+Instructors of computing-related courses will likely want to maintain Academic Integrity on programming assignments.
+
+### Detecting Code Similarity
+
+The most standard approach for maintaining Academic Integrity is to check for code similarity,
+and the most frequently used tool for this task (to my knowledge)
+is [Moss](https://theory.stanford.edu/~aiken/moss/) {cite:p}`schleimer_winnowing_2003`.
+Instructors can simply upload a collection of code files submitted by students,
+potentially including additional code files
+(e.g. starter code, existing solutions found on the internet, etc.),
+and Moss will generate a code similarity report.
+The URL of the report will expire after ~2 weeks,
+so instructors can download a local copy as needed
+(e.g. using [MossNet](https://github.com/niemasd/MossNet)).
+
 ```{glossary}
 Detection
   The act of correctly identify cases of cheating {cite:p}`eaton_remote_2024`.
