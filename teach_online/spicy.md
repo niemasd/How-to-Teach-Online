@@ -81,6 +81,7 @@ that could be a reasonable substitute {cite:p}`nipa_assessment_2020,conole_foste
 Learning Management System (LMS)
   A software application for the administration, documentation, tracking, reporting, automation,
   and delivery of educational courses/materials {cite:p}`tatnall_learning_2020`.
+
 Open Educational Resource (OER)
   A publicly available educational resource that has been released under a license that permits
   its free use and repurposing by others.

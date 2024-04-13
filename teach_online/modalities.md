@@ -215,15 +215,19 @@ The fundamental values in HyFlex design are the following {cite:p}`beatty_hybrid
 Flipped Classroom
   A teaching method in which students read/watch learning materials and work on problems asynchronously before class,
   and in-class time is reserved for problem solving, discussion, and other activities {cite:p}`bishop_flipped_2013`.
+
 HyFlex
   Short for "Hybrid-Flexible": a model of course design that allows students
   to flexibly choose between in-person or online participation {cite:p}`beatty_transitioning_2007`.
+
 Micro-Classes
   Pre-assigned small groups of students led by an Instructional Assistant
   that remain the same throughout the entire course {cite:p}`alvarado_micro-classes_2017`.
+
 Peer Instruction
   A teaching method in which each student applies the core concepts,
   and then explains those concepts to their classmates {cite:p}`crouch_peer_2001`.
+
 Small-Group Discussion
   In-class discussions among small groups of students (not necessarily pre-assigned),
   potentially facilitated by members of the instructional staff {cite:p}`cohen_restructuring_1994`.

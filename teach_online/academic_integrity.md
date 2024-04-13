@@ -203,10 +203,13 @@ and perform other downstream analyses on [GitHub](https://github.com/niemasd/MES
 ```{glossary}
 Detection
   The act of correctly identify cases of cheating {cite:p}`eaton_remote_2024`.
+
 Deterrence
   The act of stopping people from cheating {cite:p}`eaton_remote_2024`.
+
 Moshiri Exam Similarity Score (MESS)
   An exam similarity score that increases in value as shared incorrect responses are more unique {cite:p}`moshiri_scalable_2022`.
+
 Remote Proctoring
   A mode of exam administration in which students take the exam on a computer
   while being supervised by a person and/or computer software {cite:p}`eaton_remote_2024`.
