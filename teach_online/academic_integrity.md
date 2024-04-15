@@ -273,6 +273,55 @@ which is available as an open source project on [GitHub](https://github.com/niem
 The tools in this repository support exams with multiple choice, short answer, math, Parsons, etc. problems:
 they simply perform string equality comparisons between responses to determine response equality.
 
+### LLM-Proof Problems
+
+All of the discussion about maintaining Academic Integrity in exams has focused on deterring and detecting collaboration,
+but it misses a common form of Academic Integrity violation that has skyrocketed since 2023:
+the use of Large Language Model (LLM) tools like ChatGPT to solve exam problems.
+While the unauthorized use of LLMs is largely a non-issue in in-person proctored exams
+(as the proctored environment can simply check for and disallow the use of unauthorized resources),
+it is a prevalent issue in online exams,
+even with the use of remote proctoring services.
+
+While LLMs certainly pose a challenge in designing online exams,
+instructors can aim to write LLM-proof problems for their exams.
+Specifically,
+try to write problems that are hard to verbalize as a prompt.
+In my classes, I have a handful of problem styles that I look to use for this.
+
+First, I like to write problems that ask about an image.
+In the *Advanced Data Structures* course I commonly teach,
+I like to post an image of a data structure that we have learned in class,
+ask them to execute some algorithm on the example in the image,
+and have them submit the results of the algorithm as their answer.
+In the current state of LLMs,
+it is non-trivial to design a prompt that relies on an image:
+the student would likely need to somehow translate the image into a text representation,
+which will be challenging and likely time-consuming
+(and thus problematic in a timed exam).
+While image-based problems will be easier to design in some disciplines vs. others,
+this approach is applicable to quite a range of subjects with enough creativity from the instructor.
+Note that image-based problems could pose an accessibility problem for students with visual impairments,
+so an instructor will want to have alternative forms of assessment if any students are incapable of seeing the image.
+
+I also like to write problems that require some form of interaction with the problem.
+For example,
+in my Computer Science classes,
+I like to write Parsons problems,
+which are problems in which students need to drag-and-drop existing blocks of code to build a program.
+In my introductory programming courses,
+I like to write problems where the solution program is a non-standard approach to solving the computational problem
+(e.g. a somewhat convoluted way of finding the maximum of a list of numbers):
+the LLM will likely produce a solution that uses a simple approach
+(which will not help the student solve the problem),
+which makes the problem reasonably LLM-proof,
+and this type of problem requires students to think outside the box,
+which is a good assessment of mastery of the topic.
+I've also written questions that require the student to rearrange elements in some particular order
+(often coupled with an image,
+e.g. "Here's a data structure: IMAGE. Run this algorithm,
+and rearrange the elements in the order they would be output by the algorithm").
+
 ## Programming Assignments
 
 Instructors of computing-related courses will likely want to maintain Academic Integrity on programming assignments.
