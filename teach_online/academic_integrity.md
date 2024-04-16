@@ -317,10 +317,29 @@ the LLM will likely produce a solution that uses a simple approach
 which makes the problem reasonably LLM-proof,
 and this type of problem requires students to think outside the box,
 which is a good assessment of mastery of the topic.
-I've also written questions that require the student to rearrange elements in some particular order
-(often coupled with an image,
-e.g. "Here's a data structure: IMAGE. Run this algorithm,
-and rearrange the elements in the order they would be output by the algorithm").
+I've also written questions that require the student to rearrange elements in some particular order to solve the problem.
+
+{numref}`example_problem_kruskal` shows an example exam problem from my *Advanced Data Structures* course that demonstrates a problem that both
+(1) asks a question about an image, and
+(2) requires the student to interact with the web page to solve the problem.
+
+```{figure} ../images/example_problem_kruskal.png
+---
+width: 50%
+name: example_problem_kruskal
+---
+An example exam problem from an *Advanced Daa Structures course in which students are given the image of an example graph,
+and they are asked to rearrange some options to build the correct answer.
+This question is difficult to translate into an LLM prompt.
+```
+
+Of course, these suggestions may become out-dated as LLM tools evolve
+(e.g. perhaps students will be able to simply screenshot the entire question and stick it into an LLM),
+but at present,
+based on the grade distributions of my exams
+(which disallow ChatGPT and similar, but I imagine students will try to use them anyways),
+they seem to be LLM-proof
+(otherwise the number of students who respond correctly would be much higher).
 
 ## Programming Assignments
 
