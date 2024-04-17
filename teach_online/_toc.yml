@@ -6,6 +6,7 @@ root: intro
 chapters:
 - file: preface
 - file: modalities
+- file: materials
 - file: academic_integrity
 - file: spicy
 - file: acknowledgements

@@ -354,6 +354,11 @@ Instructors can simply upload a collection of code files submitted by students,
 potentially including additional code files
 (e.g. starter code, existing solutions found on the internet, etc.),
 and Moss will generate a code similarity report.
+Moss is able to detect similarities even when minor trivial edits are made
+(e.g. changing variable/function names,
+rearranging lines of code whose orders don't matter,
+whitespace and brackets, etc.),
+so it is fairly versatile to simple attempts at avoiding detection.
 The URL of the report will expire after ~2 weeks,
 so instructors can download a local copy as needed
 (e.g. using [MossNet](https://github.com/niemasd/MossNet)).
