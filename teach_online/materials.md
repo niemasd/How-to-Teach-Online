@@ -1,4 +1,4 @@
-# Creating Instructional Materials
+# Instructional Materials
 
 ```{note}
 Source Code: [`teach_online/materials.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/materials.md)
@@ -23,8 +23,11 @@ We want to emphasize that much of this advice can be used across multiple modali
 ## Videos
 
 Many online courses utilize videos to deliver course content.
+This section will not be a full-fledged guide on how to create instructional videos,
+but rather,
+it will provide an overview of things to consider when creating instructional videos.
 Broadly speaking,
-there are three extreme "types" of instructional videos one can create:
+there are three categories of instructional videos one can create:
 
 1. Recording of a person presenting a topic
     * This is also known as the "talking head" video style
@@ -68,11 +71,29 @@ While they're likely *far* too long to use as-is,
 all hope is not lost:
 recordings of a longer traditional lecture can be split into smaller chunks,
 potentially with added annotations and enhancements,
-to be used as shorter instructional videos in online learning.
+to be used as shorter instructional videos in an online,
+hybrid, or flipped course {cite:p}`minnes_podcast_2019`.
 
-## Text
+## Online Text
 
-TODO
+As mentioned in the previous section,
+despite their popularity,
+instructional videos can be difficult to properly design,
+expensive to produce nicely,
+and challenging to update or modify in the future {cite:p}`compeau_life_2015,minnes_podcast_2019`.
+Online text-based instructional materials can accompany or even potentially *replace* videos:
+they are relatively inexpensive to create
+(especially in the modern era,
+in which self-hosting is relatively simple,
+even for folks without significant technical expertise),
+and they are extremely easy to update in the future.
+
+The simplest way to write text-based instructional materials is to use a formatted text editing tool with a
+[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) ("What You See Is What You Get", pronounced "wiz-ee-wig") interface.
+For example, you can use [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or equivalent
+(e.g. [Google Docs](https://docs.google.com/), [LibreOffice Writer](https://www.libreoffice.org/discover/writer/), etc.)
+to write a formatted text document (e.g. a DOCX file),
+which can be exported to a PDF file.
 
 MAITS
 

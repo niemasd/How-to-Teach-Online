@@ -12,13 +12,10 @@ but this chapter will be structured in a way that is hopefully agnostic to speci
 This chapter draws heavily from {cite:t}`eaton_second_2024`,
 a resource I *strongly* recommend for anyone curious about Academic Integrity.
 
-## Terms and Concepts
+## Deterrence vs. Detection
 
 Before discussing *any* techniques for maintaining Academic Integrity,
 we first need to present some foundational terms and concepts.
-
-### Deterrence vs. Detection
-
 There are two key terms that describe two closely-related yet distinct concepts:
 **deterrence** and **detection**.
 {term}`Deterrence` is the act of correctly identify cases of cheating
