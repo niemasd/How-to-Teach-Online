@@ -20,6 +20,35 @@ and we will provide suggestions regarding how to design and implement these mate
 We want to emphasize that much of this advice can be used across multiple modalities of instruction
 (e.g. both in-person and online classrooms can use online videos or text resources).
 
+## Videos
+
+Many online courses utilize videos to deliver course content.
+Broadly speaking,
+there are three extreme "types" of instructional videos one can create:
+
+1. Recording of a person presenting a topic
+   *([example](https://www.youtube.com/watch?v=UqcWr1qqjFA&list=PLQ-85lQlPqFNmbPEsMoxb5dM5qtRaVShn&index=5) by Pavel Pevzner)*
+2. Recording of instructional materials (e.g. hand-written or slides) with voice-over
+   *([example](https://www.youtube.com/watch?v=39PVhxUp8P8&list=PLM_KIlU0WoXmkV4QB1Dg8PtJaHTdWHwRS&index=48) by me)*
+3. Animations visualizing a topic (e.g. computer-generated) with voice-over
+   *([example](https://youtu.be/VzPD009qTN4?si=EPoB07fnoC1szFjX) by Kurzgesagt)*
+
+Of course, this is an extreme oversimplification,
+and in practice,
+a single video can incorporate a blend of all of these methods
+(and potentially others not described here!),
+but hopefully this gives you a decent idea of what is in the realm of possibility.
+
+If you have given any lectures later than e.g. 2010,
+*especially* if you have given any lectures during the COVID-19 pandemic,
+chances are that you may already have recordings of those lectures at your disposal.
+While it might be tempting to just throw those videos into an online course,
+I highly encourage you not to do so.
+
+TODO TALK ABOUT SHORT TOPIC VIDEOS. CITE PAPERS ABOUT STUDENTS NOT FINISHING LONG VIDEOS
+
+MAYBE CITE CHRISTINE'S PAPER ABOUT CUTTING EXISTING LECTURE RECORDINGS AS A TIME-SAVING APPROACH
+
 ## Text
 
 TODO
@@ -29,12 +58,6 @@ MAITS
 JUPYTER BOOK
 
 GITHUB MARKDOWN
-
-## Videos
-
-TODO TALK ABOUT SHORT TOPIC VIDEOS. CITE PAPERS ABOUT STUDENTS NOT FINISHING LONG VIDEOS
-
-MAYBE CITE CHRISTINE'S PAPER ABOUT CUTTING EXISTING LECTURE RECORDINGS AS A TIME-SAVING APPROACH
 
 ## Content Delivery
 

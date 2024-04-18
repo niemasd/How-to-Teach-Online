@@ -75,6 +75,40 @@ And if you are someone who simply *uses* an expensive textbook,
 I encourage you to see if there exists an {term}`Open Educational Resource (OER)`
 that could be a reasonable substitute {cite:p}`nipa_assessment_2020,conole_fostering_2012`
 
+## Don't Reinvent the Wheel!
+
+Somewhat expanding upon my previous hot take,
+if other folks have already developed high quality instructional materials,
+try your best to avoid reinventing the wheel when at all possible!
+I recognize the irony that I of all people am suggesting this,
+given that I have reinvented *many* wheels throughout my academic career
+(both in teaching as well as in research),
+but I think it's important to first review all existing materials and see what you can adopt:
+reinventing the wheel should only be done as a last resort if absolutely critical.
+
+Again, this spicy take goes hand-in-hand with the previous one:
+if more folks post their instructional materials publicly in an open source fashion,
+others can simply "fork" someone's existing content to tailor it to their own course,
+and they can even contribute their updates to the original author.
+In this way,
+rather than many different people regurgitating the exact same information imperfectly in their own silos,
+the entire community can come together to collaboratively develop materials much better than any single person could have created.
+
+As an example of this,
+[Phillip Compeau](https://compeau.cbd.cmu.edu/) and [Pavel Pevzner](https://bioalgorithms.ucsd.edu/),
+the authors of the popular textbook
+[*Bioinformatics Algorithms*](https://www.bioinformaticsalgorithms.org/),
+developed a series of accompanying [lecture videos](https://www.bioinformaticsalgorithms.org/lecture-videos)
+that are freely available to the general public on [YouTube](https://www.youtube.com/@bioinfalgorithms/playlists).
+They even solicited the participation of additional folks in the Bioinformatics community to create videos,
+including [Son Pham](https://www.youtube.com/watch?v=Lqyh9RD5BSc&list=PLQ-85lQlPqFNGdaeGpV8dPEeSm3AChb6L&index=3)
+[Nikolay Vyahhi](https://www.youtube.com/watch?v=Npv180dQ_4Y&list=PLQ-85lQlPqFNmbPEsMoxb5dM5qtRaVShn&index=8),
+[Bahar Behsaz, and even myself](https://www.youtube.com/watch?v=eJxP06h-QxE&list=PLQ-85lQlPqFNqO3jD-woyp7PPQhCsOzcQ&index=5)!
+This specific collection of resources was spearheaded by Phillip Compeau and Pavel Pevzner,
+hence why they appear in the videos most frequently,
+but one can imagine a world in which world experts on a given topic *all* contribute to producing instructional videos and text for that topic,
+and then sharing them all in a central organized repository.
+
 ## Glossary
 
 ```{glossary}
