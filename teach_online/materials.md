@@ -93,13 +93,32 @@ The simplest way to write text-based instructional materials is to use a formatt
 For example, you can use [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or equivalent
 (e.g. [Google Docs](https://docs.google.com/), [LibreOffice Writer](https://www.libreoffice.org/discover/writer/), etc.)
 to write a formatted text document (e.g. a DOCX file),
-which can be exported to a PDF file.
+which can be exported to a PDF file and posted on your personal website.
+Potentially even more simple:
+depending on how you created your website,
+you may be able to write instructional text *directly on* your website!
 
-MAITS
+A slightly less simple option,
+but which might give you a bit more control over how you develop and host your materials,
+is to write your instructional materials in a [Lightweight Markup Language (LML)](https://en.wikipedia.org/wiki/Lightweight_markup_language)
+(e.g. [Markdown](https://en.wikipedia.org/wiki/Markdown))
+and host them somewhere like [GitHub](https://github.com/),
+where they can be rendered with formatting in a web browser.
+Even *less* simple,
+but even more powerful,
+is [LaTeX](https://en.wikipedia.org/wiki/LaTeX),
+which is a software system for typesetting documents
+(especially powerful for mathematical equations)
+in which the content is written in the LaTeX [markup language](https://en.wikipedia.org/wiki/Markup_language)
+and then compiled to PDF.
+LaTeX can be extremely frustrating to install and use locally,
+but web-based platforms like [Overleaf](https://www.overleaf.com/)
+make it quite simple to write LaTeX documents using a more intuitive interface
+and without needing to install anything on your computer.
 
 JUPYTER BOOK
 
-GITHUB MARKDOWN
+MAITS
 
 ## Content Delivery
 
