@@ -104,6 +104,11 @@ is to write your instructional materials in a [Lightweight Markup Language (LML)
 (e.g. [Markdown](https://en.wikipedia.org/wiki/Markdown))
 and host them somewhere like [GitHub](https://github.com/),
 where they can be rendered with formatting in a web browser.
+You may even be able to automatically generate a nicely-formatted website using content defined in Markdown files
+(e.g. [my website](https://niema.net),
+which is automatically generated from [source](https://github.com/niemasd/niemasd.github.io)
+using [GitHub Pages](https://pages.github.com/)).
+
 Even *less* simple,
 but even more powerful,
 is [LaTeX](https://en.wikipedia.org/wiki/LaTeX),
@@ -115,6 +120,20 @@ LaTeX can be extremely frustrating to install and use locally,
 but web-based platforms like [Overleaf](https://www.overleaf.com/)
 make it quite simple to write LaTeX documents using a more intuitive interface
 and without needing to install anything on your computer.
+You can even sync an Overleaf project with a GitHub repo that automatically compiles your LaTeX source
+to PDF at an unchanging URL using [GitHub Actions](https://github.com/features/actions)
+(e.g. my [curriculum vitae](https://github.com/niemasd/curriculum-vitae)).
+
+Even *less* simple,
+but arguably *much* nicer,
+are tools like [Jupyter Book](https://jupyterbook.org/)
+(such as [this very resource!](https://github.com/niemasd/How-to-Teach-Online)),
+which can compile your instructional materials into a nice website as well as PDF.
+This resource is automatically compiled upon every push and then deployed to GitHub Pages
+using a [GitHub Action](https://github.com/niemasd/How-to-Teach-Online/blob/main/.github/workflows/deploy.yml).
+The up-front overhead of setting up the infrastructure was a bit challenging,
+but now that it's set up,
+it's *incredibly* simple to update the content without worrying about anything going out-of-date.
 
 JUPYTER BOOK
 

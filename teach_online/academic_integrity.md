@@ -261,7 +261,7 @@ A single pair of students with suspiciously outlying Red (9), Yellow (0), and Gr
 is shown as a black vertical line with colored dots.
 ```
 
-We wrote a suite of Python programs to perform all pairwise
+I wrote a suite of Python programs to perform all pairwise
 Red Count, Yellow Count, Green Count, and MESS calculations,
 calculate a best-fit [Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
 plot the distributions,
@@ -304,6 +304,7 @@ is to calculate a "Time Synchronization Score" for a given pair of students $x$ 
   * Find the submission time $t_x$ from student $x$ that is closest to $t_y$
   * Add $\left(t_x–t_y\right)^2$ to $S\left(x,y\right)$
 * Normalize $S\left(x,y\right)$ by dividing by $\left(n_x+n_y\right)$
+  * *Note: In other words, we are calculating the [Mean Squared Deviation (MSD)](https://en.wikipedia.org/wiki/Mean_squared_error)
 
 You can then calculate this score across all pairs of students in the class,
 and then sort the pairs in ascending order of this score.
