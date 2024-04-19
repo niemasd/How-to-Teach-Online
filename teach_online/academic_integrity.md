@@ -147,15 +147,15 @@ the *uniqueness* of a shared wrong answer is interesting.
 
 In {cite:t}`moshiri_scalable_2022`,
 we proposed the {term}`Moshiri Exam Similarity Score (MESS)`
-that can be calculated for a given pair of students *x* and *y* as follows:
+that can be calculated for a given pair of students $x$ and $y$ as follows:
 
 * For a single question, define the "score" for that question as one of the following:
   * If either student (or both) got the question right, the score is 0
   * If both students got the question wrong, but they put *different* wrong answers, the score is 0
   * If both students put the *same* wrong answer, the score of that question is the proportion of students who put a *different* wrong answer
-    * In other words, if *n* students got the question wrong, but only *k* students put this exact wrong answer, the score of this question is (*n*–*k*)/*n*
-    * If every student who got the question wrong put this same wrong answer (i.e., *k* = *n*, e.g. True/False), the score would be 0
-    * If these students were the only students to put this specific wrong answer (i.e., *k* = 2), the score would approach 1
+    * In other words, if $n$ students got the question wrong, but only $k$ students put this exact wrong answer, the score of this question is $\left(n-k\right)/n$
+    * If every student who got the question wrong put this same wrong answer (i.e., $k=n$, e.g. True/False), the score would be 0
+    * If these students were the only students to put this specific wrong answer (i.e., $k=2$, the score would approach 1
 * Calculate the score of every question on the exam as described above, take their sum, and normalize by dividing by the number of questions
   * In other words, the overall exam score is the average of the scores of the individual questions
 
@@ -292,18 +292,18 @@ and manually compare pairs of students you may find suspicious
 Alternatively (or additionally),
 you can use a systematic approach to check for timestamp synchronization across all pairs of students in the class.
 One naive approach (which I have implemented inefficiently in [this script](https://github.com/niemasd/teaching/blob/master/Ed/time_sychronization_score.py))
-is to calculate a "Time Synchronization Score" for a given pair of students *x* and *y* as follows:
+is to calculate a "Time Synchronization Score" for a given pair of students $x$ and $y$ as follows:
 
-* Define *n<sub>x</sub>* and *n<sub>y</sub>* as the number of responses from students *x* and *y*, respectively
+* Define $n_x$ and $n_y$ as the number of responses from students $x$ and $y$, respectively
   * *Note: Both values should ideally be equal to the total number of questions on the exam, but students might leave some questions blank (e.g. run out of time)*
-* Initialize the Time Synchronization Score between *x* and *y* as *S*(*x*,*y*) = 0
-* For each submission time *t<sub>x</sub>* from student *x*:
-  * Find the submission time *t<sub>y</sub>* from student *y* that is closest to *t<sub>x</sub>*
-  * Add (*t<sub>x</sub>*–*t<sub>y</sub>*)<sup>2</sup> to *S*(*x*,*y*)
-* For each submission time *t<sub>y</sub>* from student *y*:
-  * Find the submission time *t<sub>x</sub>* from student *x* that is closest to *t<sub>y</sub>*
-  * Add (*t<sub>x</sub>*–*t<sub>y</sub>*)<sup>2</sup> to *S*(*x*,*y*)
-* Normalize *S*(*x*,*y*) by dividing by (*n<sub>x</sub>*+*n<sub>y</sub>*)
+* Initialize the Time Synchronization Score between $x$ and $y$ as $S\left(x,y\right) = 0$
+* For each submission time $t_x$ from student $x$:
+  * Find the submission time $t_y$ from student $y$ that is closest to $t_x$
+  * Add $\left(t_x–t_y\right)^2$ to $S\left(x,y\right)$
+* For each submission time $t_y$ from student $y$:
+  * Find the submission time $t_x$ from student $x$ that is closest to $t_y$
+  * Add $\left(t_x–t_y\right)^2$ to $S\left(x,y\right)$
+* Normalize $S\left(x,y\right)$ by dividing by $\left(n_x+n_y\right)$
 
 You can then calculate this score across all pairs of students in the class,
 and then sort the pairs in ascending order of this score.
