@@ -270,6 +270,88 @@ which is available as an open source project on [GitHub](https://github.com/niem
 The tools in this repository support exams with multiple choice, short answer, math, Parsons, etc. problems:
 they simply perform string equality comparisons between responses to determine response equality.
 
+### Exam Response Timestamps
+
+Beyond just looking at similarities in exam responses,
+we can also look for interesting patterns in the *timestamps* of each exam response to detect collaboration {cite:p}`xiao_detecting_2022`.
+In this subsection,
+we will discuss a few different patterns that one can look for when comparing the response timestamps between pairs of students.
+In practice,
+I personally typically first look for similarities in exam responses,
+and I *then* check suspiciously similar exams to see if there are interesting patterns in the timestamps,
+but these are two separate dimensions of signal of potential collaboration.
+
+The most telling pattern between the response timestamps of two students is synchronization:
+if two students are submitting responses to the questions of the exam within seconds of each other,
+it is very likely that they worked together to answer the questions of the exam.
+Informally,
+you can simply take all exam response times for all students,
+sort them chronologically (e.g. [this script](https://github.com/niemasd/teaching/blob/master/Ed/sort_submission_times.py)),
+and manually compare pairs of students you may find suspicious
+(e.g. pairs of students that had suspiciously similar exam responses).
+Alternatively (or additionally),
+you can use a systematic approach to check for timestamp synchronization across all pairs of students in the class.
+One naive approach (which I have implemented inefficiently in [this script](https://github.com/niemasd/teaching/blob/master/Ed/time_sychronization_score.py))
+is to calculate a "Time Synchronization Score" for a given pair of students *x* and *y* as follows:
+
+* Define *n<sub>x</sub>* and *n<sub>y</sub>* as the number of responses from students *x* and *y*, respectively
+  * *Note: Both values should ideally be equal to the total number of questions on the exam, but students might leave some questions blank (e.g. run out of time)*
+* Initialize the Time Synchronization Score between *x* and *y* as *S*(*x*,*y*) = 0
+* For each submission time *t<sub>x</sub>* from student *x*:
+  * Find the submission time *t<sub>y</sub>* from student *y* that is closest to *t<sub>x</sub>*
+  * Add (*t<sub>x</sub>*–*t<sub>y</sub>*)<sup>2</sup> to *S*(*x*,*y*)
+* For each submission time *t<sub>y</sub>* from student *y*:
+  * Find the submission time *t<sub>x</sub>* from student *x* that is closest to *t<sub>y</sub>*
+  * Add (*t<sub>x</sub>*–*t<sub>y</sub>*)<sup>2</sup> to *S*(*x*,*y*)
+* Normalize *S*(*x*,*y*) by dividing by (*n<sub>x</sub>*+*n<sub>y</sub>*)
+
+You can then calculate this score across all pairs of students in the class,
+and then sort the pairs in ascending order of this score.
+In practice,
+every time I have done this,
+the students with the most synchronized scores (as per this score)
+*also* stood out with respect to the exam similarity detection methods described above,
+but some pairs of students detected via exam similarity did *not* appear at the top
+(reasons why will be discussed shortly).
+As such,
+this approach of detecting submission time synchronization is likely a decent *complement* to other methods of collaboration detection.
+
+It must be emphasized that,
+while the *existence* of timestamp synchronization is *strong* evidence in *support* of collaboration,
+the *lack* of timestamp synchronization is *not* evidence *against* collaboration:
+it is simply uninformative.
+Namely,
+an *extremely* common form of exam collaboration
+(based on my own experiences over many years)
+is as follows:
+one student submits the exam first
+(potentially on their own, or working with the other student),
+and then the second student starts the exam *after* the first student submitted
+(potentially hours later)
+and submits answers obtained from
+(or in collaboration with)
+the first student.
+The exam timestamps between two students who collaborate in this manner will not appear synchronized:
+their exam times might not even overlap at all.
+
+However, even in this scenario,
+not all hope is lost!
+Often times, when students collaborate in this manner,
+the second student will have extremely rapid responses
+(potentially for the entire exam,
+but commonly at least for decent chunks of the exam).
+Thus, rather than comparing the two students' timestamps,
+you can look at the time deltas *between* the later student's (sorted) timestamps,
+and you can look for suspiciously fast sequences of exam responses.
+{cite:t}`xiao_detecting_2022` allude to this in their "Score-Time-Ratio",
+which is a rate of earning points on the exam over time.
+I interpreted the "Score" (i.e., numerator of "Score-Time-Ratio")
+to only include *correct* responses,
+and I would personally also suggest looking at "Response-Time-Ratio"
+(i.e., numerator being *all* submitted questions,
+regardless of correctness),
+as I have found many cases in which the copying student submits many incorrect responses in the burst of rapid responses.
+
 ### LLM-Proof Problems
 
 All of the discussion about maintaining Academic Integrity in exams has focused on deterring and detecting collaboration,
