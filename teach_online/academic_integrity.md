@@ -18,7 +18,7 @@ Before discussing *any* techniques for maintaining Academic Integrity,
 we first need to present some foundational terms and concepts.
 There are two key terms that describe two closely-related yet distinct concepts:
 **deterrence** and **detection**.
-{term}`Deterrence` is the act of correctly identify cases of cheating
+{term}`Detection` is the act of correctly identify cases of cheating
 (e.g. by comparing submissions, witnessing copying, using plagiarism detection tools, etc.),
 whereas {term}`deterrence` is the act of stopping/preventing people from cheating {cite:p}`eaton_remote_2024`
 (e.g. by proctoring/monitoring students, convincing them they will get caught and receive a severe penalty, etc.).
@@ -339,7 +339,7 @@ not all hope is lost!
 Often times, when students collaborate in this manner,
 the second student will have extremely rapid responses
 (potentially for the entire exam,
-but commonly at least for decent chunks of the exam).
+but commonly at least for decently large chunks of the exam).
 Thus, rather than comparing the two students' timestamps,
 you can look at the time deltas *between* the later student's (sorted) timestamps,
 and you can look for suspiciously fast sequences of exam responses.
