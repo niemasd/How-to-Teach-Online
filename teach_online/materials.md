@@ -133,14 +133,34 @@ This resource is automatically compiled upon every push and then deployed to Git
 using a [GitHub Action](https://github.com/niemasd/How-to-Teach-Online/blob/main/.github/workflows/deploy.yml).
 The up-front overhead of setting up the infrastructure was a bit challenging,
 but now that it's set up,
-it's *incredibly* simple to update the content without worrying about anything going out-of-date.
+it's *incredibly* simple to update the content without any headache:
+just push the changes,
+and everything else is automatically handled for you!
 
-JUPYTER BOOK
+The last medium for text-based instructional materials I will discuss is the
+{term}`Massive Adaptive Interactive Text (MAIT)`,
+which is an online text-based resource with the following characteristics {cite:p}`compeau_life_2015`:
 
-MAITS
+* **Automated Individualized Assessments:** A MAIT should include appropriately sophisticated assessment types (e.g. math, Parsons problems, or even code challenges),
+  all of which should be automated (e.g. provide feedback upon submission) and individualized (e.g. randomized input parameters)
+* **Interactivity:** Rather than placing quiz problems at the end of the instructional text, a MAIT should incorporate elements of {term}`Active Learning`
+  by incorporating assessments and activities *throughout* the instructional content
+* **Adaptivity:** A MAIT should differentiate students' responses to give them uniquely-tailored feedback to their specific misconceptions
+  and construct an adaptive learning path based on each student's specific misconceptions
+* **Modularity:** A MAIT should modularize core content so that it can be supplemented by additional crowdsourced learning modules
 
-## Content Delivery
+Our recommended platform for developing MAITs is [Cogniterra](https://cogniterra.org),
+which was previously [Stepik](https://stepik.org/).
+To give you an idea of how MAITs can be structured,
+you can refer to the two main MAITs I have developed:
+[*Introduction to Computer Science and Object-Oriented Programming in Python*](https://cogniterra.org/326)
+and [*Data Structures*](https://cogniterra.org/330),
+both of which are freely available to the general public and incorporate autograded coding challenges within the browser.
 
-TODO TALK ABOUT HOW, ONCE YOU *MAKE* THESE MATERIALS, YOU NEED TO DELIVER THEM IN SOME WAY
+```{glossary}
+Active Learning
+  A method of learning in which students are actively involved in the learning process {cite:p}`bonwell_active_1991`.
 
-TALK ABOUT DIFFERENT LMS PLATFORMS, EMPHASIZE THAT STUDENT SHOULDN'T HAVE TO FIGURE OUT HOW TO NAVIGATE THINGS (MAKE IT INTUITIVE / ONE-CLICK)
+Massive Adaptive Interactive Text (MAIT)
+  An online text-based resource with automated individualized assessments, interactivity, adaptivity, and modularity {cite:p}`compeau_life_2015`.
+```
