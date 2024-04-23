@@ -51,3 +51,23 @@ solicit unique student IDs or accounts from the external tool *once* at the begi
 (e.g. via pre-course survey),
 and create a system (using e.g. Python script, Excel tools, etc.)
 to automatically map student points from the external tool to the appropriate entry in your course gradebook.
+
+## Avoid Technology Fatigue
+
+University education has looked almost identical for *hundreds* of years:
+an instructor stands at the front of a lecture hall,
+students sit en masse in seats facing the front of the lecture hall,
+and the instructor lectures at the students for some period of time
+(typically around an hour or so).
+The main innovations between the early classrooms from over a thousand years ago {cite}`beichner_history_2014`
+and those taking place in state-of-the-art lecture halls in present-day universities have focused on scalability
+(e.g. more seats, projector, sound system to project the lecturer's voice, etc.).
+Innovations in *pedagogical techniques* that actually focus on *how students learn effectively* are fairly recent:
+most evidence-based teaching methods were developed in the mid-1900s onward,
+with a particular boom in the past few decades as formal education research has become more common in universities.
+
+As is the case with *all* disciplines,
+advances in education research have resulted in the creation of new innovative technologies to better facilitate student learning.
+
+TODO MENTION TECHNOLOGY IS GOOD, BUT TOO MANY DIFFERENT TOOLS CAN CAUSE TECHNOLOGY FATIGUE AND OVERWHELM STUDENTS.
+MENTION THAT THEY HAVE YOUR CLASS + ALL OF THEIR OTHER CLASSES = MANY OVERALL TECHNOLOGIES THEY NEED TO JUGGLE
