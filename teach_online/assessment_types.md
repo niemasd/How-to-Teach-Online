@@ -1,5 +1,9 @@
 # Assessment Types
 
+```{note}
+Source Code: [`teach_online/assessment_types.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/assessment_types.md)
+```
+
 In this section,
 we will be discussing a wide range of assessment types.
 You will likely be familiar with most of these,

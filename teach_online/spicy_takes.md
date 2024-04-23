@@ -1,7 +1,7 @@
 # Niema's Spicy Takes
 
 ```{note}
-Source Code: [`teach_online/spicy.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/spicy.md)
+Source Code: [`teach_online/spicy_takes.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/spicy_takes.md)
 ```
 
 As mentioned at the very beginning of this resource,

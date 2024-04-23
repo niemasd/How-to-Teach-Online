@@ -1,5 +1,9 @@
 # General Tips
 
+```{note}
+Source Code: [`teach_online/general_types.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/general_types.md)
+```
+
 In this section,
 we will be giving some general tips and suggestions that broadly apply to many/all of the topics we have discussed throughout this online resource.
 These will not necessarily be grounded in specific pedagogical techniques:

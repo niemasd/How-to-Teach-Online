@@ -1,5 +1,9 @@
 # Acknowledgements
 
+```{note}
+Source Code: [`teach_online/acknowledgements.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/acknowledgements.md)
+```
+
 I would like to thank the following people for fruitful conversations that have contributed to the development of this resource:
 
 * [**Robert Aboukhalil**](https://robert.bio/), Staff Software Engineer, Chan Zuckerberg Initiative
