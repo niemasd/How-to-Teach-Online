@@ -6,9 +6,9 @@ root: intro
 chapters:
 - file: preface
 - file: modalities
-- file: materials
-- file: delivery
+- file: instructional_materials
+- file: content_delivery
 - file: academic_integrity
-- file: spicy
+- file: spicy_takes
 - file: acknowledgements
 - file: postface
