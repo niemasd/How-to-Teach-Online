@@ -7,8 +7,10 @@ chapters:
 - file: preface
 - file: modalities
 - file: instructional_materials
+- file: assessment_types
 - file: content_delivery
 - file: academic_integrity
+- file: general_tips
 - file: spicy_takes
 - file: acknowledgements
 - file: postface
