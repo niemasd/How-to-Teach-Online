@@ -52,7 +52,7 @@ solicit unique student IDs or accounts from the external tool *once* at the begi
 and create a system (using e.g. Python script, Excel tools, etc.)
 to automatically map student points from the external tool to the appropriate entry in your course gradebook.
 
-## Avoid Technology Fatigue
+## Reduce Technology Fatigue
 
 University education has looked almost identical for *hundreds* of years:
 an instructor stands at the front of a lecture hall,
@@ -68,6 +68,37 @@ with a particular boom in the past few decades as formal education research has 
 
 As is the case with *all* disciplines,
 advances in education research have resulted in the creation of new innovative technologies to better facilitate student learning.
+These tools can be *incredibly* powerful for engaging students and modernizing instruction!
+However, one thing to be conscious of is the potential for {term}`Technology Fatigue`:
+a sense of overwhelming that can come about from the use of many different technologies TODO CITE.
+For example,
+speaking from personal experience,
+a single undergraduate course might use all of the following technologies:
 
-TODO MENTION TECHNOLOGY IS GOOD, BUT TOO MANY DIFFERENT TOOLS CAN CAUSE TECHNOLOGY FATIGUE AND OVERWHELM STUDENTS.
-MENTION THAT THEY HAVE YOUR CLASS + ALL OF THEIR OTHER CLASSES = MANY OVERALL TECHNOLOGIES THEY NEED TO JUGGLE
+* [Canvas](https://canvas.instructure.com) or [Blackboard](https://blackboard.com) for announcements/grades
+* [Google Sites](https://sites.google.com) or [GitHub Pages](https://pages.github.com) for a course website to display course materials/assignments
+* [Cogniterra](https://cogniterra.com) for reading assignments and/or quizzes
+* [Ed](https://edstem.org) or [Piazza](https://piazza.com) for the course discussion board
+* A proprietary textbook-affiliated web platform for homework problems (e.g. math, physics, biology, etc.)
+* [Gradescope](https://gradescope.com) for submitting and grading programming assignments and written homework/exams
+* [iClicker](https://iclicker.com) for in-class participation for in-person courses
+* [YouTube](https://youtube.com) for pre-class videos and/or class recordings
+* And potentially more!
+
+Again, I want to emphasize that all of the above technologies may be used in *a single course*!
+Further, it's important to remember that your course is not the only course students are taking:
+they very well could be taking 3 other courses
+(potentially in dramatically different disciplines)
+that each have *their own* technologies for students to keep track of.
+Thus, my general tip is to try to reduce {term}`Technology Fatigue`:
+
+* Try to minimize the number of technologies used in your course
+  * Some technologies might have redundancies in terms of functionality, so try to consolidate when at all possible
+    * For example, I now use [Ed](https://edstem.org) for announcements, embedding course materials, quizzes, programming assignments, and exams
+* When possible, try to have a single "main" technology/website that students can bookmark, and seamlessly *embed* other technologies *within* it
+  * Try to avoid manual interaction on the student's end when at all possible
+
+```{glossary}
+Technology Fatigue
+  A sense of overwhelming that can come about from the use of many different technologies TODO CITE.
+```
