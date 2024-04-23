@@ -1,7 +1,7 @@
 # General Tips
 
 ```{note}
-Source Code: [`teach_online/general_types.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/general_types.md)
+Source Code: [`teach_online/general_tips.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/general_tips.md)
 ```
 
 In this section,

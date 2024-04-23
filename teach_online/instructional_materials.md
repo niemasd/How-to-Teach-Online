@@ -1,7 +1,7 @@
 # Instructional Materials
 
 ```{note}
-Source Code: [`teach_online/materials.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/materials.md)
+Source Code: [`teach_online/instructional_materials.md`](https://github.com/niemasd/How-to-Teach-Online/blob/main/teach_online/instructional_materials.md)
 ```
 
 As one can imagine,
