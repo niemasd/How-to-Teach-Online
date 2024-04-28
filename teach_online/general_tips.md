@@ -73,12 +73,12 @@ As is the case with *all* disciplines,
 advances in education research have resulted in the creation of new innovative technologies to better facilitate student learning.
 These tools can be *incredibly* powerful for engaging students and modernizing instruction!
 However, one thing to be conscious of is the potential for {term}`Technology Fatigue`:
-a sense of overwhelming that can come about from the use of many different technologies TODO CITE.
+a sense of overwhelming that can come about from the use of many different technologies.
 For example,
 speaking from personal experience,
 a single undergraduate course might use all of the following technologies:
 
-* [Canvas](https://canvas.instructure.com) or [Blackboard](https://blackboard.com) for announcements/grades
+* [Canvas](https://canvas.instructure.com) or [Blackboard Learn](https://www.anthology.com/products/teaching-and-learning/learning-effectiveness/blackboard-learn) for announcements/grades
 * [Google Sites](https://sites.google.com) or [GitHub Pages](https://pages.github.com) for a course website to display course materials/assignments
 * [Cogniterra](https://cogniterra.com) for reading assignments and/or quizzes
 * [Ed](https://edstem.org) or [Piazza](https://piazza.com) for the course discussion board
@@ -106,5 +106,5 @@ Thus, my general tip is to try to reduce {term}`Technology Fatigue`:
 
 ```{glossary}
 Technology Fatigue
-  A sense of overwhelming that can come about from the use of many different technologies TODO CITE.
+  A sense of overwhelming that can come about from the use of many different technologies.
 ```
