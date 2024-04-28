@@ -1,3 +1,4 @@
+(assessment-types)=
 # Assessment Types
 
 ```{note}
@@ -10,6 +11,7 @@ You will likely be familiar with most of these,
 but some might be new,
 and all are worth discussing.
 
+(assessment-types-true-false)=
 ## True/False
 
 A {term}`True/False Problem` is a problem in which the student
@@ -17,6 +19,7 @@ must select either "True" or "False" as their answer.
 This problem type lacks any open-endedness in student responses,
 and it is trivial to automatically grade.
 
+(assessment-types-multiple-choice)=
 ## Multiple Choice
 
 A {term}`Multiple Choice Problem` is a generalization of a
@@ -33,6 +36,7 @@ but constrained to a set of predefined options
 due to the large number of potential selections),
 and it is trivial to automatically grade.
 
+(assessment-types-short-answer)=
 ## Short Answer
 
 A {term}`Short Answer Problem` is a problem in which the student
@@ -46,6 +50,7 @@ you may be able to add flexibility by using a correct answer
 [Regular Expression (Regex)](https://en.wikipedia.org/wiki/Regular_expression)
 or writing a script (e.g. in Python) to check a response for correctness.
 
+(assessment-types-essay)=
 ## Essay
 
 An {term}`Essay Problem` is a longer version of a {term}`Short Answer Problem` in which
@@ -54,6 +59,7 @@ Because it is *completely* open-ended,
 this assessment type is extremely difficult to grade automatically:
 it typically requires an instructor to read and evaluate manually.
 
+(assessment-types-numerical)=
 ## Numerical
 
 A {term}`Numerical Problem` is a special type of a
@@ -64,12 +70,14 @@ the assessment tool will have you specify the correct number to check against,
 and most assessment tools will also support some level of error in student responses
 (e.g. due to rounding).
 
+(assessment-types-reorder)=
 ## Reorder
 
 A {term}`Reorder Problem` is a problem in which the student is given multiple blocks of text,
 and the student must rearrange them into the correct order to form an answer.
 The correct answer may include just a subset of the given blocks of text.
 
+(assessment-types-programming)=
 ## Programming
 
 A {term}`Programming Problem` is a problem in which a student must
@@ -86,6 +94,7 @@ as well as for giving accompanying feedback
 (e.g. a custom message if the student's code didn't compile,
 a differenti message if the student's code compiled but crashed, etc.).
 
+(assessment-types-parsons)=
 ## Parsons
 
 For situations in which a {term}`Programming Problem` is too open-ended
@@ -94,6 +103,9 @@ a {term}`Parsons Problem` is a special type of a
 {term}`Reorder Problem` in which the student rearranges blocks of code to create a specific program.
 Just like in a {term}`Reorder Problem`,
 the correct answer could include just a subset of the given blocks of code.
+
+(assessment-types-glossary)=
+## Glossary
 
 ```{glossary}
 Essay Problem

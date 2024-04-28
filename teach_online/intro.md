@@ -10,6 +10,7 @@ kernelspec:
   name: python3
 ---
 
+(welcome)=
 # Welcome!
 
 ```{note}

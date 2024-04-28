@@ -1,3 +1,4 @@
+(general-tips)=
 # General Tips
 
 ```{note}
@@ -9,6 +10,7 @@ we will be giving some general tips and suggestions that broadly apply to many/a
 These will not necessarily be grounded in specific pedagogical techniques:
 they will more so be general ideas and philosophies to keep in mind while designing and executing online teaching.
 
+(general-tips-avoid-user-confusion)=
 ## Avoid User Confusion
 
 When you teach online,
@@ -52,6 +54,7 @@ solicit unique student IDs or accounts from the external tool *once* at the begi
 and create a system (using e.g. Python script, Excel tools, etc.)
 to automatically map student points from the external tool to the appropriate entry in your course gradebook.
 
+(general-tips-reduce-technology-fatigue)=
 ## Reduce Technology Fatigue
 
 University education has looked almost identical for *hundreds* of years:
@@ -97,6 +100,9 @@ Thus, my general tip is to try to reduce {term}`Technology Fatigue`:
     * For example, I now use [Ed](https://edstem.org) for announcements, embedding course materials, quizzes, programming assignments, and exams
 * When possible, try to have a single "main" technology/website that students can bookmark, and seamlessly *embed* other technologies *within* it
   * Try to avoid manual interaction on the student's end when at all possible
+
+(general-tips-glossary)=
+## Glossary
 
 ```{glossary}
 Technology Fatigue

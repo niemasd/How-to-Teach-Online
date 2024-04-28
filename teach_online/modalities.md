@@ -1,3 +1,4 @@
+(modalities-of-instruction)=
 # Modalities of Instruction
 
 ```{note}
@@ -15,6 +16,7 @@ can be used across multiple modalities
 (e.g. both in-person and online classrooms commonly use online discussion boards and assessments),
 and we will dive into specific components in later chapters.
 
+(modalities-of-instruction-fully-in-person)=
 ## Fully In-Person
 
 While it might seem strange for a resource titled *How to Teach Online* to begin with a discussion about fully in-person instruction,
@@ -29,6 +31,7 @@ such as having students read/watch materials and solve problems asynchronously b
 {term}`Flipped Classroom` framework {cite:p}`bishop_flipped_2013,akcayir_flipped_2018,compeau_establishing_2019`,
 but the core instructor-to-student interactions still occur synchronously in-person during class time.
 
+(modalities-of-instruction-fully-in-person-the-good)=
 ### The Good
 
 A primary benefit of fully in-person instruction is that it can make
@@ -38,6 +41,7 @@ which enables instructors to employ engaging teaching techniques such as
 {term}`Peer Instruction` {cite:p}`crouch_peer_2001,knight_peer_2018,porter_halving_2013`
 and {term}`Small-Group Discussion` {cite:p}`cohen_restructuring_1994,pollock_learning_2011,bennett_talking_2010`.
 
+(modalities-of-instruction-fully-in-person-the-bad)=
 ### The Bad
 
 A key downside of fully in-person instruction is its inflexibility:
@@ -58,6 +62,7 @@ Employing innovative pedagogical techniques such as
 can help improve the scalability of in-person instruction,
 but these methods typically require significant staff resources at scale.
 
+(modalities-of-instruction-fully-online)=
 ## Fully Online
 
 In contrast to fully in-person instruction,
@@ -70,6 +75,7 @@ in which all core instruction is by definition synchronous,
 the core instruction in a fully online class can be
 synchronous, asynchronous, or a mix of both.
 
+(modalities-of-instruction-fully-online-synchronous-vs-asynchronous)=
 ### Synchronous vs. Asynchronous
 
 In synchronous fully online instruction,
@@ -95,6 +101,7 @@ Further,
 instructors who hold synchronous sessions in a fully online classroom can record these sessions
 so students who are unable to attend synchronously can watch recordings according to their own schedule.
 
+(modalities-of-instruction-fully-online-the-good)=
 ### The Good
 
 A key benefit of fully online instruction is its flexibility:
@@ -121,6 +128,7 @@ It can also enable flexibility with regard to class scheduling
 (e.g. being able to enroll in classes that have conflicting synchronous times if asynchronous options are available for one),
 which could prevent delays in coursework and reduce time-to-degree.
 
+(modalities-of-instruction-fully-online-the-bad)=
 ### The Bad
 
 A major limitation of fully online instruction is that it can be *incredibly* difficult for an instructor to engage students,
@@ -144,6 +152,7 @@ We will discuss ways in which student collaboration and cheating can be detectin
 (including in unproctored online exams),
 but this is an incredible challenge for instructors.
 
+(modalities-of-instruction-hybrid)=
 ## Hybrid
 
 As can be seen in the discussion above,
@@ -186,6 +195,7 @@ but the result is that some students participate fully in-person,
 some students participate fully online in a synchronous manner via Zoom,
 and some students participate fully online asynchronously via recordings.
 
+(modalities-of-instruction-hybrid-hyflex)=
 ### HyFlex
 
 I want to briefly revisit the following comment I made about my hybrid courses:
@@ -210,6 +220,7 @@ The fundamental values in HyFlex design are the following {cite:p}`beatty_hybrid
 3. **Reusability:** Capture learning activities in each mode to reuse in other modalities
 4. **Accessibility:** Ensure that all students are equipped with the necessary technology access and skills to have equitable access to all participation modalities
 
+(modalities-of-instruction-glossary)=
 ## Glossary
 
 ```{glossary}

@@ -1,3 +1,4 @@
+(preface)=
 # Preface
 
 ```{note}
@@ -12,6 +13,7 @@ We will try to provide multiple examples for each topic,
 and we will try to comment on feasibility and usefulness in the context of different disciplines,
 as some techniques and tools may lend themselves better to some types of courses than to others.
 
+(preface-about)=
 ## About
 My name is [Niema Moshiri](https://github.com),
 and I am an Associate Teaching Professor in the [Computer Science & Engineering Department](https://cse.ucsd.edu)
@@ -32,6 +34,7 @@ This is an open source Jupyter Book {cite:p}`executable_books_community_jupyter_
 project that has been released under the
 [GNU General Public License (GPL) v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
+(preface-disclaimer)=
 ## Disclaimer
 
 This resource was written by a single person,
@@ -42,6 +45,7 @@ so please keep in mind current evidence-based best practices as well as modern t
 Rather than treating this module as a *de facto* set of instructions for online teaching,
 think of it more as a repository of many (hopefully) useful tips that you can pull pieces of to incorporate into your own teaching.
 
+(preface-contribute)=
 ## Contribute
 To try to combat my own biases as well as to hopefully keep this resource reasonably up-to-date,
 all of the source code is publicly available on [GitHub](https://github.com/niemasd/How-to-Teach-Online),

@@ -1,3 +1,4 @@
+(niemas-spicy-takes)=
 # Niema's Spicy Takes
 
 ```{note}
@@ -27,6 +28,7 @@ and you should take *everything* I say in this chapter
 with *significantly* more grains of salt
 (a tablespoon of salt should suffice).
 
+(niemas-spicy-takes-share-materials-free)=
 ## Share Your Instructional Materials Publicly for Free!
 
 Historically,
@@ -75,6 +77,7 @@ And if you are someone who simply *uses* an expensive textbook,
 I encourage you to see if there exists an {term}`Open Educational Resource (OER)`
 that could be a reasonable substitute {cite:p}`nipa_assessment_2020,conole_fostering_2012`
 
+(niemas-spicy-takes-dont-reinvent-the-wheel)=
 ## Don't Reinvent the Wheel!
 
 Somewhat expanding upon my previous hot take,
@@ -109,6 +112,7 @@ hence why they appear in the videos most frequently,
 but one can imagine a world in which world experts on a given topic *all* contribute to producing instructional videos and text for that topic,
 and then sharing them all in a central organized repository.
 
+(niemas-spicy-takes-glossary)=
 ## Glossary
 
 ```{glossary}

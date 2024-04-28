@@ -1,3 +1,4 @@
+(academic-integrity)=
 # Academic Integrity
 
 ```{note}
@@ -12,6 +13,7 @@ but this chapter will be structured in a way that is hopefully agnostic to speci
 This chapter draws heavily from {cite:t}`eaton_second_2024`,
 a resource I *strongly* recommend for anyone curious about Academic Integrity.
 
+(academic-integrity-deterrence-vs-detection)=
 ## Deterrence vs. Detection
 
 Before discussing *any* techniques for maintaining Academic Integrity,
@@ -23,6 +25,7 @@ There are two key terms that describe two closely-related yet distinct concepts:
 whereas {term}`deterrence` is the act of stopping/preventing people from cheating {cite:p}`eaton_remote_2024`
 (e.g. by proctoring/monitoring students, convincing them they will get caught and receive a severe penalty, etc.).
 
+((academic-integrity-exams)=
 ## Exams
 
 One of the most frequent concerns I have heard regarding maintaining
@@ -30,6 +33,7 @@ Academic Integrity in online courses is with respect to online exams.
 Instructors often rely on exams to serve as comprehensive evaluations of student mastery,
 and ensuring the integrity of this form of evaluation is an important goal.
 
+(academic-integrity-exams-remote-proctoring)=
 ### Remote Proctoring
 
 When administering remote exams,
@@ -86,6 +90,7 @@ the following services may be of interest:
 * [Proctorio](https://proctorio.com/) records students while they take exams and performs automated software-based video analysis as well as live human review
 * Depending on the size of your class, your course staff can proctor students live using [Zoom](https://zoom.us/) or similar video conferencing services
 
+(academic-integrity-exams-exam-similarity-detection)=
 ### Exam Similarity Detection
 
 Beyond just proctoring students *during* the exam,
@@ -270,6 +275,7 @@ which is available as an open source project on [GitHub](https://github.com/niem
 The tools in this repository support exams with multiple choice, short answer, math, Parsons, etc. problems:
 they simply perform string equality comparisons between responses to determine response equality.
 
+(academic-integrity-exams-exam-response-timestamps)=
 ### Exam Response Timestamps
 
 Beyond just looking at similarities in exam responses,
@@ -304,7 +310,7 @@ is to calculate a "Time Synchronization Score" for a given pair of students $x$ 
   * Find the submission time $t_x$ from student $x$ that is closest to $t_y$
   * Add $\left(t_x–t_y\right)^2$ to $S\left(x,y\right)$
 * Normalize $S\left(x,y\right)$ by dividing by $\left(n_x+n_y\right)$
-  * *Note: In other words, we are calculating the [Mean Squared Deviation (MSD)](https://en.wikipedia.org/wiki/Mean_squared_error)
+  * *Note: In other words, we are calculating the [Mean Squared Deviation (MSD)](https://en.wikipedia.org/wiki/Mean_squared_error)*
 
 You can then calculate this score across all pairs of students in the class,
 and then sort the pairs in ascending order of this score.
@@ -353,6 +359,7 @@ and I would personally also suggest looking at "Response-Time-Ratio"
 regardless of correctness),
 as I have found many cases in which the copying student submits many incorrect responses in the burst of rapid responses.
 
+(academic-integrity-exams-llm-proof-problems)=
 ### LLM-Proof Problems
 
 All of the discussion about maintaining Academic Integrity in exams has focused on deterring and detecting collaboration,
@@ -421,11 +428,13 @@ based on the grade distributions of my exams
 they seem to be LLM-proof
 (otherwise the number of students who respond correctly would be much higher).
 
+(academic-integrity-programming-assignments)=
 ## Programming Assignments
 
 Instructors of computing-related courses will likely want to maintain Academic Integrity on programming assignments.
 
-### Detecting Code Similarity
+(academic-integrity-programming-assignments-code-similarity-detection)=
+### Code Similarity Detection
 
 The most standard approach for maintaining Academic Integrity is to check for code similarity,
 and the most frequently used tool for this task (to my knowledge)
@@ -442,6 +451,9 @@ so it is fairly versatile to simple attempts at avoiding detection.
 The URL of the report will expire after ~2 weeks,
 so instructors can download a local copy as needed
 (e.g. using [MossNet](https://github.com/niemasd/MossNet)).
+
+(academic-integrity-glossary)=
+## Glossary
 
 ```{glossary}
 Detection

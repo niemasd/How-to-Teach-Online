@@ -1,3 +1,4 @@
+(instructional-materials)=
 # Instructional Materials
 
 ```{note}
@@ -20,6 +21,7 @@ and we will provide suggestions regarding how to design and implement these mate
 We want to emphasize that much of this advice can be used across multiple modalities of instruction
 (e.g. both in-person and online classrooms can use online videos or text resources).
 
+(instructional-materials-videos)=
 ## Videos
 
 Many online courses utilize videos to deliver course content.
@@ -74,6 +76,7 @@ potentially with added annotations and enhancements,
 to be used as shorter instructional videos in an online,
 hybrid, or flipped course {cite:p}`minnes_podcast_2019`.
 
+(instructional-materials-online-text)=
 ## Online Text
 
 As mentioned in the previous section,
@@ -156,6 +159,9 @@ you can refer to the two main MAITs I have developed:
 [*Introduction to Computer Science and Object-Oriented Programming in Python*](https://cogniterra.org/326)
 and [*Data Structures*](https://cogniterra.org/330),
 both of which are freely available to the general public and incorporate autograded coding challenges within the browser.
+
+(instructional-materials-glossary)=
+## Glossary
 
 ```{glossary}
 Active Learning

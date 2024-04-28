@@ -1,3 +1,4 @@
+(acknowledgements)=
 # Acknowledgements
 
 ```{note}
@@ -26,6 +27,7 @@ I would like to thank the following people for fruitful conversations that have 
 * [**Leo Porter**](https://leoporter.ucsd.edu/), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
 * [**Gerald Soosai Raj**](https://jacobsschool.ucsd.edu/people/profile/adalbert-gerald-soosai-raj), Associate Teaching Professor, Computer Science & Engineering, UC San Diego
 
+(acknowledgements-funding)=
 ## Funding
 
 This online training module was developed with the support of a
