@@ -92,7 +92,64 @@ running commands from the command line, etc.),
 meaning you can write potentially complex logic for grading for correctness,
 as well as for giving accompanying feedback
 (e.g. a custom message if the student's code didn't compile,
-a differenti message if the student's code compiled but crashed, etc.).
+a different message if the student's code compiled but crashed, etc.).
+
+(assessment-types-programming-writing-graders)=
+### Writing Graders
+
+As mentioned above,
+automatic graders of programming assessments can potentially give adaptive feedback
+catered to the student's specific misconception or mistake.
+When I write grading scripts,
+I typically start with a simple test and multiple large randomly-generated test,
+and I write the grader to simply output binary "correct" or "incorrect" feedback.
+I then try to map out all possible misconceptions or mistakes I can think of,
+and I add them into the script such that,
+assuming the student's code has passed all previous steps of the grading script,
+if the student's code produces output *y* given test *x*,
+it is likely that the student's code has mistake/misonception *z*,
+and I write the grader to output more descriptive feedback regarding that specific mistake/misconception.
+
+For example,
+consider a programming assessment in an introductory
+[Java](https://en.wikipedia.org/wiki/Java_(programming_language)) programming class
+in which a student is given two `int` objects `x` and `y`,
+and the student's program needs to print the result of `x` divided by `y`.
+I would write a grading script that performs the following:
+
+1. Try to compile the student's code
+    * If the student's code doesn't compile,
+      fail the code and provide feedback saying the code didn't compile
+    * If possible, try to parse the compile error message and provide descriptive feedback about what that error means
+2. Run multiple tests in which `x` is perfectly divisible by `y` (e.g. `x = 4` and `y = 2`)
+    * If the student's code doesn't produce the correct output,
+      fail the code and provide descriptive feedback showing the inputs, expected output, and student's output
+3. Run multiple tests in which `x` is *not* perfectly divisible by `y` (e.g. `x = 5` and `y = 2`)
+    * A common misconception is if a student simply prints the result of `x / y`,
+      which in Java performs [integer division](https://mathworld.wolfram.com/IntegerDivision.html) when given two `int` variables
+    * If the student's code produces the output of integer division (e.g. `2` in this example),
+      but it passed all tests prior to this point,
+      it is likely that the student's code has this specific mistake,
+      so fail the code and provide descriptive feedback explaining this common misconception regarding integer division
+4. Perform Step 3, but with any other mistakes/misconceptions you can think of
+    * Students will inevitably encounter mistakes you couldn't think of when initially designing the grading script,
+      so revise the script based on student feedback in future offerings of the course by adding additional tests
+5. If the student's code passed everything up to the end of the grading script,
+   pass the student's code
+
+In an online course,
+scalability is critical,
+and the more feedback you can provide students automatically right when they submit their code,
+the less burden there is on course staff trying to answer students' questions.
+However, you need to be careful that your grading script doesn't give incorrect or misleading feedback
+(e.g. if you *thought* that only misconception *z* was possible at that point in your grading script,
+but another misconception could also lead to that same exact behavior in your script).
+I typically have my instructional staff stress-test my grading scripts to ensure
+(1) correct code consistently passes the grader,
+(2) incorrect code consistently fails the grader,
+(3) feedback for any mistakes they can think of testing is consistently reasonable,
+and (4) the grader cannot be exploited or circumvented with some form of trickery
+(this is typically the most fun/interesting for them).
 
 (assessment-types-parsons)=
 ## Parsons
