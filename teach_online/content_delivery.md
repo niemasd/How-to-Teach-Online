@@ -165,11 +165,12 @@ and individual instructors can purchase an instructor license to cover just thei
 (content-delivery-discussion-board-ed)=
 ### Ed
 
-[Ed](https://edstem.org/) is a feature-rich platform that has discussion board functionality (Ed Discussion)
-as well as content and autograded assessment delivery functionality (Ed Lesson).
+[Ed](https://edstem.org/) is a feature-rich platform that has discussion board functionality
+([Ed Discussion](https://edstem.org/discussion))
+as well as content and autograded assessment delivery functionality
+([Ed Lessons](https://edstem.org/lessons)).
 Ed Discussion functions similarly to [Piazza](#content-delivery-discussion-board-piazza)
-(e.g. [Q&A](https://edstem.org/q-and-a) and
-[course information/announcements](https://edstem.org/discussion)),
+(e.g. [Q&A](https://edstem.org/q-and-a) and course information/announcements),
 but with many additional features,
 such as [live chat](https://edstem.org/chat)
 and [more robust content within posts](https://edstem.org/#express-yourself)
