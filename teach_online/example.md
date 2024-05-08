@@ -41,9 +41,15 @@ they can keep up with all learning and graded aspects of the course without need
 
 [Ed Discussion](https://edstem.org/discussion) is the discussion board functionality of Ed.
 It looks a lot like [Piazza](https://piazza.com/),
-but it's much cleaner and feature-rich in my opinion.
+but it's much cleaner and feature-rich in my opinion
+({numref}`ed_discussion`).
 
-TODO ADD ZOOMED OUT FIGURE OF ED DISCUSSION BOARD
+```{figure} ../images/ed_discussion.png
+---
+name: ed_discussion
+---
+Ed Discussion board from an example *Advanced Data Structures* course.
+```
 
 One particularly powerful feature of Ed Discussion is that it supports the embedding of **runnable** code examples directly within a post.
 This has been absolutely game-changing in my Computer Science courses!
@@ -56,9 +62,15 @@ I can actually include runnable code examples *within* my explanation to enable 
 The students don't need to install *anything* other than a modern web browser:
 regardless of what device the student is using
 (e.g. laptop/desktop, tablet, or even phone),
-the student can simply click and run actual code directly in their web browser.
+the student can simply click and run actual code directly in their web browser
+({numref}`ed_discussion_runnable_code`).
 
-TODO ADD EXAMPLE OF ED DISCUSSION POST WITH RUNNABLE CODE
+```{figure} ../images/ed_discussion_runnable_code.png
+---
+name: ed_discussion_runnable_code
+---
+Ed Discussion post with runnable C++ code from an example *Advanced Data Structures* course.
+```
 
 (niemas-example-course-ed-lessons)=
 ### Ed Lessons
