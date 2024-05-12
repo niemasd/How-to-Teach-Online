@@ -183,7 +183,15 @@ I have two Projects,
 which are *structurally* similar to the PAs
 (write code to solve a problem),
 but which are much larger in scale and much more open-ended,
-requiring quite a bit of design from the student.
+requiring quite a bit of design from the student
+({numref}`ed_lessons_project`).
+
+```{figure} ../images/ed_lessons_project.png
+---
+name: ed_lessons_project
+---
+Project from an example *Advanced Data Structures* course.
+```
 
 (niemas-example-course-ed-lessons-exams)=
 #### Exams
@@ -191,8 +199,16 @@ requiring quite a bit of design from the student.
 I typically administer two exams:
 one Midterm and one Final.
 Each is implemented as its own "Lesson" on Ed,
-and each consists of an informational text "Slide" followed by multiple quiz "Slides"
-(much like the pages of a traditional written exam).
+and each consists of an informational text "Slide" followed by multiple quiz "Slides,"
+much like the pages of a traditional written exam
+({numref}`ed_lessons_exam`).
+
+```{figure} ../images/ed_lessons_exam.png
+---
+name: ed_lessons_exam
+---
+Exam from an example *Advanced Data Structures* course.
+```
 
 While my Programming Assignments (PAs) and Projects were also individual "Lessons",
 they were open for an unlimited amount of time,
