@@ -235,4 +235,11 @@ which I do to avoid giving away the answers to students who took the exam earlie
 (and who thus might share them with students who take the exam later in the day).
 This approach still doesn't prevent collaboration,
 but you can read about my exam similarity detection methods in the
-[Academic Integrity](#academic-integrity-exams-exam-similarity-detection) section of this resource.
+[*Academic Integrity*](#academic-integrity-exams-exam-similarity-detection) section of this resource.
+
+(niemas-example-course-canvas)=
+## Gradebook: Canvas
+I teach at the [University of California, San Diego (UCSD)](https://ucsd.edu),
+and UCSD uses [Canvas](https://www.instructure.com/canvas)
+as its official[Learning Management System (LMS)](#content-delivery-lms).
+TODO
