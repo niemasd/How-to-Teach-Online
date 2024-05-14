@@ -240,13 +240,29 @@ but you can read about my exam similarity detection methods in the
 (niemas-example-course-google-calendar)=
 ## Course Calendar: Google Calendar
 
-For keeping track of course sessions, assessment release dates, and deadlines,
+For keeping track of important course-related dates,
 I like to use [Google Calendar](https://calendar.google.com).
 I typically create two calendars:
-one "main" calendar that has the items described above,
-and a second "office hours" calendar that has all office hours for all members of the instructional staff.
+
+1. A "main" calendar that contains synchronous class sessions, instructor and graduate TA office hours, release dates, deadlines, and exams ({numref}`google_calendar_main`)
+2. A "lab hours" calendar that has all drop-in office hours that are held by undergraduate instructional assistants (Tutors) rather than instructors/TAs ({numref}`google_calendar_lab_hours`)
+
 I like to use Google Calendar because it's easy to manage, share, and embed,
 and students can easily subscribe to the Google Calendar and have it sync with their laptop, phone, tablet, etc.
+
+```{figure} ../images/google_calendar_main.png
+---
+name: google_calendar_main
+---
+Main calendar from an example *Advanced Data Structures* course.
+```
+
+```{figure} ../images/google_calendar_lab_hours.png
+---
+name: google_calendar_lab_hours
+---
+Lab Hours calendar from an example *Advanced Data Structures* course.
+```
 
 (niemas-example-course-canvas)=
 ## Gradebook: Canvas
