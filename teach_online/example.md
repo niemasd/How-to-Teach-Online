@@ -239,7 +239,62 @@ but you can read about my exam similarity detection methods in the
 
 (niemas-example-course-canvas)=
 ## Gradebook: Canvas
+
 I teach at the [University of California, San Diego (UCSD)](https://ucsd.edu),
 and UCSD uses [Canvas](https://www.instructure.com/canvas)
-as its official[Learning Management System (LMS)](#content-delivery-lms).
+as its official [Learning Management System (LMS)](#content-delivery-lms).
+I'm not sure about the specifics of UCSD's policies regarding the use of Canvas,
+but my department has recommended that instructors should use Canvas as a landing page for students:
+when students enroll or waitlist in classes at UCSD,
+they automatically get added to the course's Canvas page,
+but there is no additional notification or communication to the instructor and student.
+In order to address both matters
+(the recommendation to use Canvas,
+and the fact that Canvas is the only landing page newly-enrolled/waitlisted students can see),
+I use my class's automatically-generated Canvas course to serve two purposes:
+
+1. The home page of the Canvas course points students to the Ed infrastructure via a self-enroll link ({numref}`canvas_home`)
+    * I disable all Canvas pages/features other than the home page and the "Grades" view
+2. The Canvas "Grades" page serves as the official gradebook for the class, regardless of what students see on Ed ({numref}`canvas_grades`)
+    * This is to handle extensions/accommodations, grading corrections, etc. that may not perfectly align with the points shown on Ed
+
+```{figure} ../images/canvas_home.png
+---
+name: canvas_home
+---
+Canvas home page from an example *Advanced Data Structures* course.
+```
+
+```{figure} ../images/canvas_grades.png
+---
+name: canvas_grades
+---
+Canvas "Grades" view from an example *Advanced Data Structures* course.
+```
+
+(niemas-example-course-zoom)=
+## Video Conferencing: Zoom
+
+I teach at the [University of California, San Diego (UCSD)](https://ucsd.edu),
+and as was the case with most universities during the early days of the COVID-19 pandemic,
+UCSD gave all instructors an institutional license to use [Zoom](https://zoom.us) for teaching, meetings, etc.
+Even after in-person instruction at UCSD resumed,
+all UCSD employees still have an institutional Zoom license,
+so I continue to use it in my online teaching.
+Even if UCSD didn't have an institutional Zoom license,
+I would probably still use Zoom because it does everything I need it to do quite well:
+
+* I have a single recurring Zoom link for each course, which I have set to automatically record to the Zoom cloud
+    * I use the same Zoom link for all of my lectures as well as my TAs' Discussion sections for simplicity
+* I like to use the (classic) Zoom whiteboard feature with a Wacom tablet to hand-draw/write during class
+    * This is absolutely critical for the live problem solving I like to do in my classes
+* The screen sharing functionality works quite well, and I love that I can annotate directly on the shared content
+    * I also like that I can choose between sharing my entire screen vs. sharing just a specific window
+* It has nice security features to prevent unwanted disruptions (e.g. password-protected meetings, waiting room, etc.)
+
+(niemas-example-course-youtube)=
+## Video Distribution: YouTube
+
+As I mentioned in the [*Video Conferencing: Zoom*](#niemas-example-course-zoom) section,
+I like to use Zoom's "automatically record to the Zoom cloud" feature to record my synchronous class sessions.
 TODO
