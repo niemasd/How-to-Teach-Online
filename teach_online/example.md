@@ -237,6 +237,17 @@ This approach still doesn't prevent collaboration,
 but you can read about my exam similarity detection methods in the
 [*Academic Integrity*](#academic-integrity-exams-exam-similarity-detection) section of this resource.
 
+(niemas-example-course-google-calendar)=
+## Course Calendar: Google Calendar
+
+For keeping track of course sessions, assessment release dates, and deadlines,
+I like to use [Google Calendar](https://calendar.google.com).
+I typically create two calendars:
+one "main" calendar that has the items described above,
+and a second "office hours" calendar that has all office hours for all members of the instructional staff.
+I like to use Google Calendar because it's easy to manage, share, and embed,
+and students can easily subscribe to the Google Calendar and have it sync with their laptop, phone, tablet, etc.
+
 (niemas-example-course-canvas)=
 ## Gradebook: Canvas
 
@@ -295,6 +306,31 @@ I would probably still use Zoom because it does everything I need it to do quite
 (niemas-example-course-youtube)=
 ## Video Distribution: YouTube
 
-As I mentioned in the [*Video Conferencing: Zoom*](#niemas-example-course-zoom) section,
+As I mentioned in the [*Video Conferencing: Zoom*](#niemas-example-course-zoom) section of this resource,
 I like to use Zoom's "automatically record to the Zoom cloud" feature to record my synchronous class sessions.
+I don't require synchronous attendance in my classes
+(see the [*HyFlex*](#modalities-of-instruction-hybrid-hyflex) section of this resource for some rationale),
+so I need some way of distributing class recordings to students
+(even if I required synchronous attendance,
+I would still distribute recordings to students for review).
+I prefer using [YouTube](https://youtube.com) to distribute all videos in my courses for the following reasons:
+
+* YouTube automatically captions all videos
+    * This is critical for students who have hearing impairments or who don't speak English natively
+    * The automatic captions aren't perfect, but they can easily be manually corrected in [YouTube Studio](https://studio.youtube.com)
+    * You could even use the automatic English captions to create captions in other languages
+* YouTube automatically reencodes all videos to multiple resolutions
+    * My classes are recorded in 1080p resolution, but these files might be too large to stream smoothly on a poor internet connection
+    * YouTube has a 1080p resolution stream, but it also reencodes the video to 720p, 480p, and 360p
+* YouTube Studio supports trimming and cutting videos directly in the browser
+    * As a result, I can trim out the quiet parts of the recording from before/after class
+    * I can also cut out silent parts in the middle of class (e.g. when students are working on problems)
+* YouTube has unlimited capacity
+    * My institution uses [Google Drive](https://drive.google.com) for cloud storage, but each account has a 100 GB capacity
+* I can easily share recordings with future students or reuse them in other ways
+
+(niemas-example-course-autograder)=
+## Help Queue: Autograder
+
+In the courses that I teach,
 TODO
