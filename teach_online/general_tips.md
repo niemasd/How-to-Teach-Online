@@ -101,13 +101,6 @@ Thus, my general tip is to try to reduce {term}`Technology Fatigue`:
 * When possible, try to have a single "main" technology/website that students can bookmark, and seamlessly *embed* other technologies *within* it
   * Try to avoid manual interaction on the student's end when at all possible
 
-(general-tips-automate-everything)=
-## Automate EVERYTHING!
-
-I'm not sure if this should be a [Spicy Take](#niemas-spicy-takes) instead of a [General Tip](#general-tips),
-but I think it's not quite spicy enough, so I'll leave it here.
-TODO
-
 (general-tips-glossary)=
 ## Glossary
 

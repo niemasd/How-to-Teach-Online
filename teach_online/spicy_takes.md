@@ -112,6 +112,25 @@ hence why they appear in the videos most frequently,
 but one can imagine a world in which world experts on a given topic *all* contribute to producing instructional videos and text for that topic,
 and then sharing them all in a central organized repository.
 
+(niemas-spicy-takes-automate-everything)=
+## Automate EVERYTHING!
+
+I was torn between this should be a [Spicy Take](#niemas-spicy-takes) or a [General Tip](#general-tips),
+but I think just spicy enough to leave here.
+In general,
+I am strongly of the opinion that,
+when running a course,
+the instructor should try to automate everything they can possibly automate.
+Of course,
+don't sacrifice the quality of your assessments in exchange for easy automation,
+but try to think of ways to automate any aspects of your course that are currently being done manually.
+For example,
+if there are any points that you have to manually enter throughout the course,
+try to write a program to help automate the process
+(e.g. I have written [programs to help me migrate points](https://github.com/niemasd/teaching)
+from [Ed](https://edstem.org) to my [Canvas](https://canvas.instructure.com) gradebook).
+TODO
+
 (niemas-spicy-takes-glossary)=
 ## Glossary
 

@@ -344,9 +344,3 @@ I prefer using [YouTube](https://youtube.com) to distribute all videos in my cou
 * YouTube has unlimited capacity
     * My institution uses [Google Drive](https://drive.google.com) for cloud storage, but each account has a 100 GB capacity
 * I can easily share recordings with future students or reuse them in other ways
-
-(niemas-example-course-autograder)=
-## Help Queue: Autograder
-
-In the courses that I teach,
-TODO
