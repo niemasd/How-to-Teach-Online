@@ -115,8 +115,8 @@ and then sharing them all in a central organized repository.
 (niemas-spicy-takes-automate-everything)=
 ## Automate EVERYTHING!
 
-I was torn between this should be a [Spicy Take](#niemas-spicy-takes) or a [General Tip](#general-tips),
-but I think just spicy enough to leave here.
+I was torn between whether this should be a [Spicy Take](#niemas-spicy-takes) or a [General Tip](#general-tips),
+but I think this take is just spicy enough to leave here.
 In general,
 I am strongly of the opinion that,
 when running a course,
@@ -129,7 +129,45 @@ if there are any points that you have to manually enter throughout the course,
 try to write a program to help automate the process
 (e.g. I have written [programs to help me migrate points](https://github.com/niemasd/teaching)
 from [Ed](https://edstem.org) to my [Canvas](https://canvas.instructure.com) gradebook).
-TODO
+
+My rationale is that,
+beyond the obvious benefit of reducing the potential for human error,
+human time of the instructional staff is critical to student learning.
+Even with impressive advances in Large Language Models (LLMs) such as [ChatGPT](https://chat.openai.com/),
+computers are (currently) unable to feel empathy.
+Members of a course's instructional staff are not just sources of information:
+if that were the case,
+all educational institutions would have become obsolete with the introduction of the textbook hundreds of years ago.
+Members of a course's instructional staff are useful *in part* due to the information they know,
+but their primary utility in learning is their ability to reflect on their past experiences as humans:
+they can connect with students struggling with concepts they too struggled with in the past,
+and they can teach advanced concepts in a way that draws on how they personally connect the concepts with the world.
+
+As such,
+my spicy take on this front is the following:
+any human time that is spent on tasks that can be performed by a computer in an automated fashion is a waste of time:
+*all* human time across the instructional staff (or at least as much as possible)
+should be allocated towards interacting with students in some way.
+In the courses that I teach,
+I hire undergraduate instructional assistants at 8 hour/week appointments that are broken down as follows:
+
+* 0.5 hours/week for a weekly staff meeting (e.g. discussing upcoming assignments, asking about common issues seen in office hours, etc.)
+* 1.5 hours/week to prepare for their office hours (e.g. review the upcoming assignment write-up and solution, review concepts, etc.)
+* 6 hours/week holding office hours (e.g. helping students debug their code, answering student questions, working on problems with students, etc.)
+
+Coupled with strict guidelines regarding how many members of the instructional staff can hold office hours at the same time
+(e.g. only 1 person at any given time when there are no upcoming deadlines,
+and up to 5 people at any given time the day before an assignment deadline),
+I am able to provide office hour coverage every single day of the week (including weekends!),
+with typical coverage spanning 9 AM through 9 PM.
+As a result, *any* student should be able to find *some* office hour time that fits into their schedule,
+regardless of work/family obligations, time zone (in the case of online classes), etc.
+Of course,
+many of these office hours go underutilized,
+but I think that's a very reasonable trade-off for the safety net that this structure provides all students
+(I also combat underutilized office hours by having my instructional staff members test my automated grading systems,
+respond to posts on the discussion board,
+and perform other helpful tasks when there are no students in their office hours).
 
 (niemas-spicy-takes-glossary)=
 ## Glossary

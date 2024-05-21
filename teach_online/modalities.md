@@ -22,11 +22,11 @@ and we will dive into specific components in later chapters.
 While it might seem strange for a resource titled *How to Teach Online* to begin with a discussion about fully in-person instruction,
 we wanted to start things off with what is typically the most "traditional" modality of instruction that readers might be most familiar with.
 In a fully in-person class,
-all core instruction occurs in physically within the classroom.
+all core instruction occurs physically within the classroom.
 By definition, fully in-person instruction is synchronous:
 the instructor and the students physically meet at a lecture hall or classroom,
 and the core instruction occurs synchronously during this in-person meeting time.
-Of course, instructors of a fully in-person course can choose to include some component of asynchronous learning,
+Of course, instructors of a fully in-person course can choose to include some amount of asynchronous learning,
 such as having students read/watch materials and solve problems asynchronously before class in a
 {term}`Flipped Classroom` framework {cite:p}`bishop_flipped_2013,akcayir_flipped_2018,compeau_establishing_2019`,
 but the core instructor-to-student interactions still occur synchronously in-person during class time.
@@ -49,7 +49,7 @@ it relies on an entire class of students to physically come to the classroom at 
 A myriad of issues can prevent students from physically coming to class:
 illness, family/work obligations, social/personal life issues, commute challenges, etc.
 {cite:p}`gersten_barriers_2023,salguero_understanding_2021`.
-Even factors as small as not wanting to wake up early can be a non-trivial barrier to coming to class
+Even factors as small as not wanting to wake up early can be non-trivial barriers to physically coming to class
 (and a student's definition of "early" might differ dramatically from an instructor's!).
 
 Another key limitation of fully in-person instruction is that it does not scale well:
@@ -68,7 +68,7 @@ but these methods typically require significant staff resources at scale.
 In contrast to fully in-person instruction,
 a class can be structured in a fully online modality.
 Specifically, in a fully online class,
-all interactions occur online:
+*all* interactions occur online:
 there are no in-person interactions whatsoever.
 Unlike with fully in-person instruction,
 in which all core instruction is by definition synchronous,
@@ -110,13 +110,13 @@ For example, during the early days of the COVID-19 pandemic,
 due to travel restrictions placed by various countries' governments,
 my classes had students from literally all over the world.
 This made synchronous online learning somewhat tricky,
-but by having my instructional team provide Office Hours all day
+but by having my instructional team provide Office Hours all throughout the day
 (this was a benefit of my massive class sizes:
-massive classes = massive instructional team = plenty of Office Hours to spread across the day),
+massive enrollment = massive instructional team = plenty of Office Hours to spread throughout the day),
 meaning any student had at least some Office Hours during reasonable waking hours of their day.
 Less extreme than the global shutdowns during the COVID-19 pandemic,
 as described earlier,
-students may have a difficult time making it to a physical classroom on campus due to many reasons,
+students may have difficulties coming to a physical classroom on campus due to many reasons,
 and online instruction (even synchronous) reduces the barrier to entry for these students.
 
 Even beyond the flexibility with regard to physical location that is enjoyed by online instruction in general,
@@ -125,7 +125,7 @@ students can interact with the course in a way that fits into their own unique s
 This can be critical for engaging students with other significant time constraints
 (e.g. family/work obligations).
 It can also enable flexibility with regard to class scheduling
-(e.g. being able to enroll in classes that have conflicting synchronous times if asynchronous options are available for one),
+(e.g. being able to enroll in classes that have conflicting synchronous times if asynchronous options are available),
 which could prevent delays in coursework and reduce time-to-degree.
 
 (modalities-of-instruction-fully-online-the-bad)=
