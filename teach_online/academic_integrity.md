@@ -190,7 +190,7 @@ An example plot of a MESS distribution can be found in {numref}`mess_distributio
 ---
 name: mess_distribution
 ---
-Distribution of all pairwise MESS calculations in a 500-person Advanced Data Structures course (log-scale).
+Distribution of all pairwise MESS calculations in a 500-person *Advanced Data Structures* course (log-scale).
 A histogram is shown as blue bars,
 a [Kernel Density Estimate (KDE)](https://en.wikipedia.org/wiki/Kernel_density_estimation) is shown as a dashed black curve,
 and the [Probability Density Function (PDF)](https://en.wikipedia.org/wiki/Probability_density_function)
@@ -259,7 +259,7 @@ An example plot of Red, Yellow, and Green Count distribution can be found in {nu
 width: 100%
 name: ryg_distributions
 ---
-Distributions of all pairwise Red, Yellow, and Green Counts vs. Black Counts in a 500-person Advanced Data Structures course (log-scale).
+Distributions of all pairwise Red, Yellow, and Green Counts vs. Black Counts in a 500-person *Advanced Data Structures* course (log-scale).
 2D [Kernel Density Estimates (KDEs)](https://en.wikipedia.org/wiki/Kernel_density_estimation) are shown as colored contours,
 and best-fit lines are shown for each distribution.
 A single pair of students with suspiciously outlying Red (9), Yellow (0), and Green (0) Counts for their given Black Count (9)
@@ -415,7 +415,7 @@ I've also written questions that require the student to rearrange elements in so
 width: 50%
 name: example_problem_kruskal
 ---
-An example exam problem from an *Advanced Daa Structures course in which students are given the image of an example graph,
+An example exam problem from an *Advanced Data Structures* course in which students are given the image of an example graph,
 and they are asked to rearrange some options to build the correct answer.
 This question is difficult to translate into an LLM prompt.
 ```
