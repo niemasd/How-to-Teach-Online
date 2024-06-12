@@ -13,6 +13,9 @@ they will more so be general ideas and philosophies to keep in mind while design
 (general-tips-avoid-user-confusion)=
 ## Avoid User Confusion
 
+(general-tips-avoid-user-confusion-administrative-tasks)=
+### Administrative Tasks
+
 When you teach online,
 you will have to perform some amount of non-trivial infrastructure-building
 (hopefully using some of the information we provided in previous sections of this resource).
@@ -53,6 +56,50 @@ solicit unique student IDs or accounts from the external tool *once* at the begi
 (e.g. via pre-course survey),
 and create a system (using e.g. Python script, Excel tools, etc.)
 to automatically map student points from the external tool to the appropriate entry in your course gradebook.
+
+(general-tips-avoid-user-confusion-technical-tasks)=
+### Technical Tasks
+
+As an extension of this notion,
+I also want to emphasize the importance of trying to minimize how much student time is spent
+on technical tasks not directly aligned with the learning outcomes of the course,
+such as configuration of a coding environment.
+As someone who teaches Computer Science and Bioinformatics courses,
+I always need to be conscious of what tasks are explicitly tied to course-level learning outcomes.
+
+For example,
+all Computer Scientists need to become proficient at system administration of a
+[Unix](https://en.wikipedia.org/wiki/Unix)-like environment via a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface),
+but in introductory courses,
+we may not want students to spend time trying to figure out how to *configure* their coding environment:
+we will likely want their coding environment to be preconfigured by the course staff.
+Time they spend trying to figure out how to configure the coding environment perfectly hits *program*-level learning outcomes,
+but not necessarily *course*-level learning outcomes,
+and this notion of manual configuration may be better introduced in a later course.
+
+In the Bioinformatics courses I teach online,
+I try to cater the level of technicality to the desired course-level outcomes.
+For example,
+in courses that target folks without significant computational background
+(such as in the [Applied Bioinformatics Specialization Track](https://www.coursera.org/specializations/applied-bioinformatics) I developed),
+I utilize [Galaxy](https://usegalaxy.org/),
+which is an online platform in which users can run Bioinformatics tools in the cloud via a
+[graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface).
+This allows folks to learn how to design and interpret Bioinformatics analyses at a higher level,
+without needing to get into the nitty-gritty technical details of compiling and running these tools from the command-line.
+For folks with proficiency in *using* a command-line interface
+(but not necessarily compiling command-line tools from source),
+I typically recommend [sandbox.bio](https://sandbox.bio/),
+which is an online platform in which users can run Bioinformatics tools via a virtual command-line interface directly within their web browser,
+without any need to manually install any tools.
+For folks with significant computational experience
+(including compiling command-line tools from source),
+I incorporate compiling and running the command-line tools directly within the instructional materials as intended learning outcomes.
+
+In short,
+be conscious of exactly how much time students will be spending performing technical tasks in your course,
+determine which of those technical tasks are *critical* to hitting the course's intended learning outcomes,
+and try to cut out any technical tasks that don't align with the learning outcomes of the course.
 
 (general-tips-reduce-technology-fatigue)=
 ## Reduce Technology Fatigue
