@@ -32,6 +32,3 @@ print("Built: %s" % datetime.now(timezone("America/Los_Angeles")).strftime("%B %
 
 The most recent version of this resource can be found as a [website](https://niema.net/How-to-Teach-Online)
 or [PDF](https://github.com/niemasd/How-to-Teach-Online/releases/latest/download/How-to-Teach-Online.pdf).
-
-```{tableofcontents}
-```
