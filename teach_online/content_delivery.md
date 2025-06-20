@@ -141,6 +141,58 @@ you are technical enough to compare different services on your own,
 so we will not provide a specific list of services to choose from,
 as it will likely go obsolete *extremely* quickly.
 
+(content-delivery-assessments)=
+## Assessments
+
+Many courses utilize online assessment systems to enable students to digitally submit their work
+and to enable the instructional staff
+(or the assessment system itself!)
+to (potentially automatically) grade student submissions.
+
+(content-delivery-assessments-prairielearn)=
+### PrairieLearn
+
+[PrairieLearn](https://www.prairielearn.com/) is an assessment platform that supports a wide range of quesiton types,
+and even actual programming (including a terminal!),
+directly in the web browser.
+Instructors can write questions with automatic grading (most popular)
+or manual grading (e.g. essays, proofs, etc.).
+PrairieLearn supports a large number of question types
+and is *extremely* powerful in the amount of customization and randomization it supports,
+but as a result,
+its [documentation](https://prairielearn.readthedocs.io/) is *extremely* long and complicated.
+
+(content-delivery-assessments-ed)=
+### Ed
+
+[Ed](https://edstem.org/) is a feature-rich platform that has
+content and autograded assessment delivery functionality
+([Ed Lessons](https://edstem.org/lessons))
+as well as discussion board functionality
+([Ed Discussion](https://edstem.org/discussion)).
+Ed Lessons supports a large number of automatically graded question types
+(including programming challenges with a terminal in the web browser)
+and has an incredibly user-friendly interface for authoring questions.
+However, at the time of writing this,
+it does not support randomization in its questions.
+
+(content-delivery-assessments-cogniterra)=
+[Cogniterra](https://cogniterra.org/),
+which was previously [Stepik](https://stepik.org/),
+is a platform for writing [online instructional text](instructional-materials-online-text).
+However, in addition to instructional text,
+Cogniterra also supports a large number of automatically graded question types
+(including programming challenges in the web browser)
+and has a user-friendly interface for authoring questions.
+Further, questions can include randomization.
+
+(content-delivery-assessments-gradescope)=
+### Gradescope
+
+[Gradescope](https://www.gradescope.com/) is an assessment platform that supports PDF submissions
+(e.g. for written or typed assignments, exams, etc.)
+as well as automatically graded code challenges.
+
 (content-delivery-discussion-board)=
 ## Discussion Board
 
@@ -174,8 +226,7 @@ Ed Discussion functions similarly to [Piazza](#content-delivery-discussion-board
 but with many additional features,
 such as [live chat](https://edstem.org/chat)
 and [more robust content within posts](https://edstem.org/#express-yourself)
-(including runnable code examples!!!).
-Ed has been my strongly preferred platform since I started using it in 2020.
+(including runnable code examples!).
 
 (content-delivery-instructional-text)=
 ## Instructional Text
