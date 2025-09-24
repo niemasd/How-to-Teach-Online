@@ -31,14 +31,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Install Ubuntu dependencies
+        run: |
+          DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC sudo apt-get update && \
+          DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC sudo apt-get install -y texlive-fonts-extra texlive-latex-extra texlive-xetex latexmk
       - name: Set up Python 3.11
         uses: actions/setup-python@v2
         with:
           python-version: 3.11
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
-          pip install -r requirements.txt && \
-          sudo apt-get install -y texlive-fonts-extra texlive-latex-extra texlive-xetex latexmk
+          pip install -r requirements.txt
       - name: Build Book
         run: |
           jupyter-book build teach_online && \
